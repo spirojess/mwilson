@@ -1,0 +1,76 @@
+name: rows_and_columns
+timestamp: 1544807186
+version: 7
+preset:
+  image: 'gantry-admin://images/layouts/default.png'
+  name: default
+  timestamp: 1468340932
+positions: {  }
+sections:
+  navigation: Navigation
+  intro: Intro
+  features: Features
+  utility: Utility
+  above: Above
+  testimonials: Testimonials
+  expanded: Expanded
+  header: Header
+  aside: Aside
+  sidebar: Sidebar
+  mainbar: Mainbar
+  footer: Footer
+  offcanvas: Offcanvas
+particles:
+  custom:
+    custom-6833: Header
+    custom-9485: 'Equal Width Examples'
+    custom-6522: 'Single Block per Row'
+    custom-3772: 'Two Blocks per Row'
+    custom-2813: 'Two Blocks per Row'
+    custom-2874: 'Three Blocks per Row'
+    custom-5117: 'Three Blocks per Row'
+    custom-1891: 'Three Blocks per Row'
+    custom-1030: 'Four Blocks per Row'
+    custom-9108: 'Four Blocks per Row'
+    custom-4617: 'Four Blocks per Row'
+    custom-7536: 'Four Blocks per Row'
+    custom-9267: 'Different Width Examples'
+    custom-8260: '25% Width Block'
+    custom-4188: '50% Width Block'
+    custom-6944: '25% Width Block'
+    custom-8585: '26% Width Block'
+    custom-8036: '31% Width Block'
+    custom-2331: '43% Width Block'
+    custom-6361: 'Right Sidebar'
+    custom-4736: Lipsum
+    custom-5490: Content
+    custom-9374: 'Flexible Layouts'
+    custom-4266: Lipsum
+  logo:
+    logo-4160: 'Logo / Image'
+    logo-3998: 'Logo / Image'
+  menu:
+    menu-8553: Menu
+  social:
+    social-7975: Social
+  copyright:
+    copyright-9185: Copyright
+  horizontalmenu:
+    horizontalmenu-2061: 'Horizontal Menu'
+  totop:
+    totop-6598: 'To Top'
+  mobile-menu:
+    mobile-menu-6986: Mobile-menu
+inherit:
+  default:
+    navigation: navigation
+    footer: footer
+    offcanvas: offcanvas
+    logo-4160: logo-9608
+    menu-8553: menu-6409
+    social-7975: social-3171
+    logo-3998: logo-9571
+    copyright-9185: copyright-1736
+    horizontalmenu-2061: horizontalmenu-9034
+    totop-6598: totop-8670
+    mobile-menu-6986: mobile-menu-5697

@@ -1,0 +1,249 @@
+version: 2
+preset:
+  image: 'gantry-admin://images/layouts/default.png'
+  name: default
+  timestamp: 1468340932
+layout:
+  navigation: {  }
+  header: {  }
+  intro: {  }
+  features: {  }
+  utility: {  }
+  above: {  }
+  testimonials: {  }
+  expanded: {  }
+  /container-main/:
+    -
+      -
+        'mainbar 75':
+          -
+            - system-content-7663
+          -
+            - owlcarousel-3850
+          -
+            - custom-1677
+          -
+            - contentcubes-4979
+          -
+            - custom-2628
+          -
+            - contenttabs-6740
+          -
+            - custom-2991
+      -
+        'sidebar 25': {  }
+  footer: {  }
+  offcanvas: {  }
+structure:
+  navigation:
+    type: section
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - block
+        - children
+  header:
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - block
+        - children
+  intro:
+    type: section
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - children
+  features:
+    type: section
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - block
+        - children
+  utility:
+    type: section
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - block
+        - children
+  above:
+    type: section
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - block
+        - children
+  testimonials:
+    type: section
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - block
+        - children
+  expanded:
+    type: section
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - block
+        - children
+  mainbar:
+    type: section
+    subtype: main
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - block
+  sidebar:
+    type: section
+    subtype: aside
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - block
+        - children
+  container-main:
+    attributes:
+      boxed: ''
+  footer:
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - block
+        - children
+  offcanvas:
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - block
+        - children
+content:
+  system-content-7663:
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - block
+      particle: system-content-1587
+  owlcarousel-3850:
+    title: 'Owl Carousel'
+    attributes:
+      title: OwlCarousel
+      nav: enable
+      dots: disable
+      autoplay: disable
+      items:
+        -
+          image: 'gantry-media://header/img02.jpg'
+          title: 'Owl Carousel'
+          desc: 'The Owl Carousel particle features premium functionality from the start.'
+          link: '#'
+          linktext: 'Click Me'
+          buttonclass: button-2
+          name: 'Item 1'
+        -
+          image: 'gantry-media://header/img01.jpg'
+          title: 'Owl Carousel'
+          desc: 'Set up and deploy a gorgeous carousel in seconds that visitors will love.'
+          link: '#'
+          linktext: 'Click Me'
+          buttonclass: button-2
+          name: 'Item 2'
+  custom-1677:
+    title: 'OwlCarousel Description'
+    attributes:
+      html: "<p>The <strong>Owl Carousel</strong> particle is a simple and elegant particle, based on the open source project of the same name by <a href=\"http://www.owlcarousel.owlgraphic.com/index.html\">Bartosz Wojciechowski</a>, that displays featured information in a modern slider.</p>\n\n<h3>Particle Configuration</h3>\n<div align=\"center\"><p><img src=\"gantry-media://rocketlauncher/pages/particles/content_tabs_1.jpg\" /></p></div>\n<table>\n<thead><tr>\n<th align=\"left\">Option</th>\n  <th align=\"left\">Description</th>\n</tr></thead>\n<tbody>\n<tr>\n<td align=\"left\">CSS Classes</td>\n  <td align=\"left\">Sets the CSS class for the content of the particle.</td>\n</tr>\n<tr>\n<td align=\"left\">Title</td>\n  <td align=\"left\">Sets the title of the particle, as it will appear on the front end.</td>\n</tr>\n<tr>\n<td align=\"left\">Prev Next</td>\n  <td align=\"left\">Enables a previous / next switcher on the front end.</td>\n</tr>\n<tr>\n<td align=\"left\">Dots</td>\n  <td align=\"left\">Enables or disables pagination dots.</td>\n</tr>\n<tr>\n<td align=\"left\">Autoplay</td>\n  <td align=\"left\">Enables or disables autoplay, allowing the particle to automatically move through items.</td>\n</tr>\n<tr>\n<td align=\"left\">Autoplay Speed</td>\n  <td align=\"left\">Sets the speed at which items are automatically progressed in autoplay.</td>\n</tr>\n<tr>\n<td align=\"left\">Image Overlay</td>\n  <td align=\"left\">Enables or disables the use of image overlay in the particle.</td>\n</tr>\n</tbody>\n</table>\n\n<h3>Item Configuration</h3>\n<div align=\"center\"><p><img src=\"gantry-media://rocketlauncher/pages/particles/content_tabs_2.jpg\" /></p></div>\n<table>\n<thead><tr>\n<th align=\"left\">Option</th>\n  <th align=\"left\">Description</th>\n</tr></thead>\n<tbody>\n<tr>\n<td align=\"left\">Image</td>\n  <td align=\"left\">Enter the path to the image file you wish to use for this item.</td>\n</tr>\n<tr>\n<td align=\"left\">Title</td>\n  <td align=\"left\">Enter a title for the item here.</td>\n</tr>\n<tr>\n<td align=\"left\">Description</td>\n  <td align=\"left\">Enter a description for the item here.</td>\n</tr>\n<tr>\n<td align=\"left\">Link</td>\n  <td align=\"left\">Enter a link for the item here.</td>\n</tr>\n<tr>\n<td align=\"left\">Link Text</td>\n  <td align=\"left\">Enter a the text you want to appear as the link for the item here.</td>\n</tr>\n<tr>\n<td align=\"left\">Button Class</td>\n  <td align=\"left\">You can enter a button class you wish to use for the link button here.</td>\n</tr>\n</tbody>\n</table>"
+  contentcubes-4979:
+    title: 'Content Cubes'
+    attributes:
+      title: 'Content Cubes'
+      items:
+        -
+          image: 'gantry-media://above/img02.jpeg'
+          imageposition: right
+          label: Particle
+          title: 'This is a sample of the Content Cubes particle in Helium theme.'
+          tags:
+            -
+              icon: 'fa fa-tag'
+              link: '#'
+              target: _self
+              text: gantry
+            -
+              icon: 'fa fa-tag'
+              link: '#'
+              target: _self
+              text: particle
+            -
+              icon: 'fa fa-tag'
+              link: '#'
+              target: _self
+              text: cube
+          link: '#'
+          linktext: '&rarr;'
+          buttonclass: ''
+          buttontarget: _self
+          name: 'Cube 1'
+        -
+          image: 'gantry-media://above/img01.jpeg'
+          imageposition: left
+          label: Particle
+          title: 'This is a sample of the Content Cubes particle in Helium theme.'
+          tags:
+            -
+              icon: 'fa fa-tag'
+              link: '#'
+              target: _self
+              text: grav
+            -
+              icon: 'fa fa-tag'
+              link: '#'
+              target: _self
+              text: wordpress
+            -
+              icon: 'fa fa-tag'
+              link: '#'
+              target: _self
+              text: joomla
+          link: '#'
+          linktext: '&rarr;'
+          buttonclass: ''
+          buttontarget: _self
+          name: 'Cube 2'
+  custom-2628:
+    title: 'Content Cubes Description'
+    attributes:
+      html: "<p>The <strong>Content Cubes</strong> particle is a great way to highlight some of your best content in a way that perfectly complements the theme's design. This is a natural, and aesthetically-pleasing way to ensure that your featured content stands out.</p>\n\n<h3>Particle Configuration</h3>\n<div align=\"center\"><p><img src=\"gantry-media://rocketlauncher/pages/particles/content_cubes_1.jpg\" /></p></div>\n<table>\n<thead><tr>\n<th align=\"left\">Option</th>\n  <th align=\"left\">Description</th>\n</tr></thead>\n<tbody>\n<tr>\n<td align=\"left\">CSS Classes</td>\n  <td align=\"left\">Sets the CSS class for the content of the particle.</td>\n</tr>\n<tr>\n<td align=\"left\">Title</td>\n  <td align=\"left\">Sets the title of the particle, as it will appear on the front end.</td>\n</tr>\n</tbody>\n</table>\n\n<h3>Item Configuration</h3>\n<div align=\"center\"><p><img src=\"gantry-media://rocketlauncher/pages/particles/content_cubes_2.jpg\" /></p></div>\n<table>\n<thead><tr>\n<th align=\"left\">Option</th>\n  <th align=\"left\">Description</th>\n</tr></thead>\n<tbody>\n<tr>\n<td align=\"left\">Image</td>\n  <td align=\"left\">Enter the path to the image file you wish to use for this item.</td>\n</tr>\n<tr>\n<td align=\"left\">Image Position</td>\n  <td align=\"left\">Set whether the image will appear to the left or the right of the text in the item.</td>\n</tr>\n<tr>\n<td align=\"left\">Label</td>\n  <td align=\"left\">Enter a label that appears on the top of the title of the item.</td>\n</tr>\n<tr>\n<td align=\"left\">Title</td>\n  <td align=\"left\">Enter a title for the item. This appears on the front end.</td>\n</tr>\n<tr>\n<td align=\"left\">Link</td>\n  <td align=\"left\">Enter a link that you would like the item to take visitors to when selected.</td>\n</tr>\n<tr>\n<td align=\"left\">Link Text</td>\n  <td align=\"left\">Enter any text you would like to have appear as the link.</td>\n</tr>\n<tr>\n<td align=\"left\">Button Class</td>\n  <td align=\"left\">Set a class that will apply to the link's button for this item in the particle.</td>\n</tr>\n<tr>\n<td align=\"left\">Button Target</td>\n  <td align=\"left\">Set the way you would like the link to open. You can choose between <strong>Self</strong> and <strong>New Window</strong>.</td>\n</tr>\n</tbody>\n</table>\n\n<h3>Item Tags Configuration</h3>\n<div align=\"center\"><p><img src=\"gantry-media://rocketlauncher/pages/particles/content_cubes_3.jpg\" /></p></div>\n<table>\n<thead><tr>\n<th align=\"left\">Option</th>\n  <th align=\"left\">Description</th>\n</tr></thead>\n<tbody>\n<tr>\n<td align=\"left\">Tag Name</th>\n  <td align=\"left\">The name of the tag becomes the tag's name on the front end.</th>\n</tr>\n<tr>\n<td align=\"left\">Tag Icon</td>\n  <td align=\"left\">Select a <strong>Font Awesome</strong> icon you would like to appear alongside the tag's name on the front end.</td>\n</tr>\n<tr>\n<td align=\"left\">Tag Link</td>\n  <td align=\"left\">You can set a specific link that clicking on the tag will take the visitor to, here.</td>\n</tr>\n</tbody>\n</table>"
+  contenttabs-6740:
+    title: 'Content Tabs'
+    attributes:
+      title: 'Content Tabs'
+      animation: fade
+      items:
+        -
+          content: 'The Content Tab particle is incredibly easy to set up and deploy in your website. You can create a new tab with a single click, name it, and enter its content in plain text or HTML to create a look and feel that meets your needs.'
+          title: Simple
+        -
+          content: 'The Content Tabs particle makes it possible to pack a lot of content into a small space, without sacrificing ease of use. Your visitors can browse between labeled tabs and explore your content without having to scroll through a wall of text.'
+          title: Efficient
+        -
+          content: 'Create as few or as many tabs as you need, apply custom CSS classes, and position this particle wherever you would like it to go. The Content Tabs particle looks as good on a large desktop as it does on a mobile phone.'
+          title: Flexible
+  custom-2991:
+    title: 'Content Tabs Description'
+    attributes:
+      html: "<p>The <strong>Content Tabs</strong> particle enables you to pack a lot of useful information into a compact space that is easy to configure and intuitive to navigate.</p>\n\n<h3>Particle Configuration</h3>\n<div align=\"center\"><p><img src=\"gantry-media://rocketlauncher/pages/particles/content_tabs_1.jpg\" /></p></div>\n<table>\n<thead><tr>\n<th align=\"left\">Option</th>\n  <th align=\"left\">Description</th>\n</tr></thead>\n<tbody>\n<tr>\n<td align=\"left\">CSS Classes</td>\n  <td align=\"left\">Sets the CSS class for the content of the particle.</td>\n</tr>\n<tr>\n<td align=\"left\">Animation Type</td>\n  <td align=\"left\">Sets the the animation type used when switching between tabs. You can choose between: <strong>Slide Left</strong>, <strong>Slide Right</strong>, <strong>Slide Up</strong>, <strong>Slide Down</strong>, <strong>Fade</strong>, and <strong>Toggle</strong>. </td>\n</tr>\n</tbody>\n</table>\n\n<h3>Item Configuration</h3>\n<div align=\"center\"><p><img src=\"gantry-media://rocketlauncher/pages/particles/content_tabs_2.jpg\" /></p></div>\n<table>\n<thead><tr>\n<th align=\"left\">Option</th>\n  <th align=\"left\">Description</th>\n</tr></thead>\n<tbody>\n<tr>\n<td align=\"left\">Item Name</td>\n  <td align=\"left\">The name of the item becomes the title used for the tab on the front end.</td>\n</tr>\n<tr>\n<td align=\"left\">Tab Content</td>\n  <td align=\"left\">Enter HTML content you would like to display in your tab as its content body here.</td>\n</tr>\n</tbody>\n</table>"

@@ -1,0 +1,83 @@
+ordering:
+  home: ''
+  features:
+    particles: ''
+    block-variations: ''
+    typography: ''
+    documentation: ''
+    download: ''
+  pages:
+    blog-page: ''
+    error-page: ''
+    offline-page: ''
+  layouts:
+    full-width: ''
+    left-sidebar: ''
+    right-sidebar: ''
+    two-sidebars: ''
+    two-sidebars-left: ''
+    two-sidebars-right: ''
+    rows-and-columns: ''
+  styles:
+    __particle-lb4Ja: ''
+items:
+  home:
+    object_id: 126
+  pages/blog-page:
+    object_id: 128
+  features:
+    object_id: 3
+    columns:
+      - 100
+  styles:
+    object_id: 5
+    dropdown: standard
+    dropdown_dir: left
+    dropdown_hide: '1'
+    width: 35rem
+    columns:
+      - 100
+  layouts:
+    object_id: 4
+  layouts/full-width:
+    object_id: 62
+  layouts/left-sidebar:
+    object_id: 64
+  layouts/right-sidebar:
+    object_id: 66
+  layouts/two-sidebars:
+    object_id: 70
+  pages:
+    object_id: 6
+    columns:
+      - 100
+  layouts/two-sidebars-left:
+    object_id: 72
+  layouts/two-sidebars-right:
+    object_id: 74
+  layouts/rows-and-columns:
+    object_id: 88
+  features/block-variations:
+    object_id: 43
+  features/particles:
+    object_id: 46
+  pages/offline-page:
+    object_id: 118
+  features/documentation:
+    object_id: 2
+  features/download:
+    object_id: 1
+  pages/error-page:
+    object_id: 7
+  features/typography:
+    object_id: 9
+  styles/__particle-lb4Ja:
+    type: particle
+    particle: custom
+    title: 'Custom HTML'
+    options:
+      particle:
+        enabled: '1'
+        html: "<div class=\"g-grid g-preset-thumbnails center\">\n    <div class=\"g-block\">\n        <div class=\"g-content\">\n            <a href=\"?presets=preset1\">\n                <img src=\"gantry-media://styles/preset1.png\" alt=\"Preset 1\">\n                <br />\n                <span>Preset 1</span>\n            </a>\n        </div>\n    </div>\n    <div class=\"g-block\">\n        <div class=\"g-content\">\n            <a href=\"?presets=preset2\">\n                <img src=\"gantry-media://styles/preset2.png\" alt=\"Preset 2\">\n                <br />\n                <span>Preset 2</span>\n            </a>\n        </div>\n    </div>\n    <div class=\"g-block\">\n        <div class=\"g-content\">\n            <a href=\"?presets=preset3\">\n                <img src=\"gantry-media://styles/preset3.png\" alt=\"Preset 3\">\n                <br />\n                <span>Preset 3</span>\n            </a>\n        </div>\n    </div>\n    <div class=\"g-block\">\n        <div class=\"g-content\">\n            <a href=\"?presets=preset4\">\n                <img src=\"gantry-media://styles/preset4.png\" alt=\"Preset 4\">\n                <br />\n                <span>Preset 4</span>\n            </a>\n        </div>\n    </div>\n    <div class=\"g-block\">\n        <div class=\"g-content\">\n            <a href=\"?presets=preset5\">\n                <img src=\"gantry-media://styles/preset5.png\" alt=\"Preset 5\">\n                <br />\n                <span>Preset 5</span>\n            </a>\n        </div>\n    </div>\n    <div class=\"g-block\">\n        <div class=\"g-content\">\n            <a href=\"?presets=preset6\">\n                <img src=\"gantry-media://styles/preset6.png\" alt=\"Preset 6\">\n                <br />\n                <span>Preset 6</span>\n            </a>\n        </div>\n    </div>    \n</div>"
+      block:
+        extra: {  }
