@@ -1,5 +1,5 @@
 name: default
-timestamp: 1549666106
+timestamp: 1550603923
 version: 7
 preset:
   image: 'gantry-admin://images/layouts/default.png'
@@ -37,12 +37,14 @@ particles:
     position-position-3949: Sidebar
   content:
     system-content-1587: 'Page Content'
-  copyright:
-    copyright-1736: Copyright
+  custom:
+    custom-5023: 'Custom HTML'
   horizontalmenu:
     horizontalmenu-9034: 'Horizontal Menu'
   totop:
     totop-8670: 'To Top'
+  copyright:
+    copyright-1736: Copyright
   mobile-menu:
     mobile-menu-5697: Mobile-menu
 inherit: {  }
