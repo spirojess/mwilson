@@ -1,7 +1,7 @@
-preset: preset6
+preset: preset5
 base:
-  background: '#363636'
-  text-color: '#a8a7a7'
+  background: '#ffffff'
+  text-color: '#2a363b'
 accent:
   color-1: '#a8a7a7'
   color-2: '#474747'
@@ -10,7 +10,7 @@ font:
   family-title: 'Lato, Helvetica, Tahoma, Geneva, Arial, sans-serif'
 link:
   regular: '#a8a7a7'
-  hover: '#eceeef'
+  hover: '#2a363b'
 navigation:
   background: '#474747'
   text-color: '#ffffff'
@@ -20,25 +20,25 @@ header:
   background-overlay: enabled
   text-color: '#eceeef'
 intro:
-  background: '#474747'
-  text-color: '#ffffff'
+  background: '#f4f5f7'
+  text-color: '#2a363b'
 features:
-  background: '#363636'
-  text-color: '#ffffff'
+  background: '#ffffff'
+  text-color: '#2a363b'
 utility:
   background: '#474747'
   text-color: '#ffffff'
 above:
-  background: '#a8a7a7'
-  text-color: '#ffffff'
+  background: '#f4f5f7'
+  text-color: '#2a363b'
 testimonials:
   background: '#a8a7a7'
   background-image: 'gantry-media://testimonials/img01.jpg'
   background-overlay: enabled
   text-color: '#eceeef'
 expanded:
-  background: '#363636'
-  text-color: '#ffffff'
+  background: '#ffffff'
+  text-color: '#2a363b'
 footer:
   background: '#474747'
   text-color: '#ffffff'

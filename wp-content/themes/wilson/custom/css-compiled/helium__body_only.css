@@ -117,8 +117,8 @@ i.fa-grav-spaceman, i.fa-grav-text, i.fa-grav-full, i.fa-grav-logo, i.fa-grav-sy
 }
 /* line 1, wp-content/themes/g5_helium/scss/helium/styles/_core.scss */
 body {
-  color: #a8a7a7;
-  background: #363636;
+  color: #2a363b;
+  background: #fff;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: auto;
 }
@@ -174,7 +174,7 @@ a {
 }
 /* line 5, wp-content/themes/g5_helium/scss/helium/styles/_hyperlinks.scss */
 a:hover {
-  color: #eceeef;
+  color: #2a363b;
 }
 @font-face {
   font-family: "raleway";
@@ -261,13 +261,13 @@ blockquote {
 /* line 28, wp-content/themes/g5_helium/scss/helium/styles/_typography.scss */
 blockquote p {
   font-size: 1.1rem;
-  color: #dbdada;
+  color: #546d77;
 }
 /* line 33, wp-content/themes/g5_helium/scss/helium/styles/_typography.scss */
 blockquote cite {
   display: block;
   text-align: right;
-  color: #a8a7a7;
+  color: #2a363b;
   font-size: 1.2rem;
 }
 /* line 42, wp-content/themes/g5_helium/scss/helium/styles/_typography.scss */
@@ -1471,7 +1471,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 /* line 115, wp-content/themes/g5_helium/scss/helium/styles/_helium-style.scss */
 .g-home-particles.g-helium-style .fp-features .g-block .card .card-block .card-subtitle {
   display: block;
-  color: rgba(168, 167, 167, 0.5);
+  color: rgba(42, 54, 59, 0.5);
   margin-bottom: 1.5rem;
   font-weight: 200;
 }
@@ -1546,13 +1546,13 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 }
 /* line 1, wp-content/themes/g5_helium/scss/helium/sections/_pagesurround.scss */
 #g-page-surround {
-  background: #363636;
+  background: #fff;
   overflow: hidden;
 }
 /* line 5, wp-content/themes/g5_helium/scss/helium/sections/_pagesurround.scss */
 .g-bodyonly #g-page-surround {
-  color: #a8a7a7;
-  background: #363636;
+  color: #2a363b;
+  background: #fff;
 }
 @media print {
   /* line 12, wp-content/themes/g5_helium/scss/helium/sections/_pagesurround.scss */
@@ -2014,8 +2014,8 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 }
 /* line 1, wp-content/themes/g5_helium/scss/helium/sections/_intro.scss */
 #g-intro {
-  background: #474747;
-  color: #fff;
+  background: #f4f5f7;
+  color: #2a363b;
   padding: 3rem 0;
 }
 @media print {
@@ -2027,8 +2027,8 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 }
 /* line 1, wp-content/themes/g5_helium/scss/helium/sections/_features.scss */
 #g-features {
-  background: #363636;
-  color: #fff;
+  background: #fff;
+  color: #2a363b;
   padding: 3rem 0;
 }
 @media print {
@@ -2053,8 +2053,8 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 }
 /* line 1, wp-content/themes/g5_helium/scss/helium/sections/_above.scss */
 #g-above {
-  background: #a8a7a7;
-  color: #fff;
+  background: #f4f5f7;
+  color: #2a363b;
   padding: 3rem 0;
 }
 @media print {
@@ -2105,8 +2105,8 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 }
 /* line 1, wp-content/themes/g5_helium/scss/helium/sections/_expanded.scss */
 #g-expanded {
-  background: #363636;
-  color: #fff;
+  background: #fff;
+  color: #2a363b;
   padding: 3rem;
 }
 @media only all and (min-width: 48rem) and (max-width: 59.938rem) {
@@ -2123,8 +2123,8 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 }
 /* line 1, wp-content/themes/g5_helium/scss/helium/sections/_main.scss */
 #g-mainbar {
-  background: #363636;
-  color: #a8a7a7;
+  background: #fff;
+  color: #2a363b;
   padding: 3rem 0;
 }
 @media print {
@@ -2136,8 +2136,8 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 }
 /* line 1, wp-content/themes/g5_helium/scss/helium/sections/_aside.scss */
 #g-aside {
-  background: #363636;
-  color: #a8a7a7;
+  background: #fff;
+  color: #2a363b;
   padding: 3rem 0;
 }
 @media print {
@@ -2149,8 +2149,8 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 }
 /* line 1, wp-content/themes/g5_helium/scss/helium/sections/_sidebar.scss */
 #g-sidebar {
-  background: #363636;
-  color: #a8a7a7;
+  background: #fff;
+  color: #2a363b;
   padding: 3rem 0;
 }
 @media print {
@@ -3186,7 +3186,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
   width: 15px;
   height: 15px;
   margin: 0 0.3125rem;
-  background: #a8a7a7;
+  background: #2a363b;
   display: block;
   -webkit-backface-visibility: visible;
   transition: opacity 200ms ease;
@@ -3461,7 +3461,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 /* line 533, wp-content/themes/g5_helium/scss/helium/particles/_owlcarousel.scss */
 .g-owlcarousel .owl-dots .owl-dot {
   display: inline-block;
-  background: #a8a7a7;
+  background: #2a363b;
   margin: 0 0.3125rem;
   width: 15px;
   height: 15px;

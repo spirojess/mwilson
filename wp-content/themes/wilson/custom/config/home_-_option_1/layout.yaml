@@ -117,17 +117,17 @@ content:
       items:
         -
           class: ''
-          image: 'gantry-media://MWilson-marching.jpg'
+          image: 'gantry-media://2019/02/musicman_bnr1.jpg'
           title: ''
           desc: ''
-          link: /bio
+          link: /biography
           linktext: ''
           buttonclass: button-outline
           disable: '0'
           name: 'Meredith Marching'
         -
           class: ''
-          image: 'gantry-media://musicman_bnr.jpg'
+          image: 'gantry-media://2019/02/musicman_bnr2.jpg'
           title: ''
           desc: ''
           link: /musicals
@@ -135,6 +135,36 @@ content:
           buttonclass: button-outline
           disable: '0'
           name: 'The Music Man'
+        -
+          class: ''
+          image: 'gantry-media://2019/02/musicman_bnr3.jpg'
+          title: ''
+          desc: ''
+          link: ''
+          linktext: ''
+          buttonclass: button-outline
+          disable: '0'
+          name: Bio1
+        -
+          class: ''
+          image: 'gantry-media://2019/02/musicman_bnr4.jpg'
+          title: ''
+          desc: ''
+          link: ''
+          linktext: ''
+          buttonclass: button-outline
+          disable: '0'
+          name: 'MusicMan Square'
+        -
+          class: ''
+          image: 'gantry-media://2019/02/musicman_bnr5.jpg'
+          title: ''
+          desc: ''
+          link: ''
+          linktext: ''
+          buttonclass: button-outline
+          disable: '0'
+          name: 'Bio 2'
   position-position-4734:
     title: Aside
     attributes:

@@ -131,15 +131,29 @@ content:
     attributes:
       items:
         -
-          text: Download
-          link: /contact
-          name: Download
+          text: Biography
+          link: bio
+          name: Biographi
         -
-          text: 'Link 2'
-          link: /buy
-          name: 'Link 2'
+          text: Musicals
+          link: musicals
+          name: Musicals
         -
-          name: 'New item'
+          text: 'The Music Man Square'
+          link: the-music-man-square
+          name: 'Music Man Square'
+        -
+          text: Licensing
+          link: licensing
+          name: Liscensing
+        -
+          text: 'Digital Collection'
+          link: digital-collection
+          name: 'Digital Collection'
+        -
+          text: Store
+          link: store
+          name: Store
   totop-8670:
     title: 'To Top'
   copyright-1736:

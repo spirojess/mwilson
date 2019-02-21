@@ -139,7 +139,7 @@ legend small {
 /* line 56, wp-content/themes/g5_helium/scss/helium-wordpress/_core.scss */
 /* line 57, wp-content/themes/g5_helium/scss/helium-wordpress/_core.scss */
 #g-page-surround .search-form input.search-field {
-  color: #a8a7a7;
+  color: #2a363b;
 }
 /* line 2, wp-content/themes/g5_helium/scss/helium-wordpress/_pagination.scss */
 /* line 4, wp-content/themes/g5_helium/scss/helium-wordpress/_pagination.scss */
@@ -319,7 +319,7 @@ legend small {
 /* line 69, wp-content/themes/g5_helium/scss/helium-wordpress/_comments.scss */
 /* line 70, wp-content/themes/g5_helium/scss/helium-wordpress/_comments.scss */
 #comments ol.commentlist li.comment .comment-author .author-meta time a, #comments ol.commentlist li.comment .comment-author .author-meta .edit-link a {
-  color: #a8a7a7;
+  color: #2a363b;
 }
 /* line 72, wp-content/themes/g5_helium/scss/helium-wordpress/_comments.scss */
 #comments ol.commentlist li.comment .comment-author .author-meta time a:hover, #comments ol.commentlist li.comment .comment-author .author-meta .edit-link a:hover {
@@ -340,7 +340,7 @@ legend small {
 }
 /* line 91, wp-content/themes/g5_helium/scss/helium-wordpress/_comments.scss */
 #comments ol.commentlist li.comment.bypostauthor > .comment-body > .comment-author .author-name a:hover {
-  color: #a8a7a7;
+  color: #2a363b;
 }
 /* line 100, wp-content/themes/g5_helium/scss/helium-wordpress/_comments.scss */
 #comments ol.commentlist li.comment .comment-content {
