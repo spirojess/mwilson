@@ -34,12 +34,7 @@ layout:
         'sidebar 25':
           -
             - position-position-3949
-  /footer/:
-    -
-      - 'logo-9571 10'
-      - 'copyright-1736 30'
-      - 'horizontalmenu-9034 45'
-      - 'totop-8670 15'
+  footer: {  }
   /offcanvas/:
     -
       - mobile-menu-5697
@@ -98,8 +93,11 @@ structure:
     attributes:
       boxed: ''
   footer:
-    attributes:
-      boxed: ''
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - children
   offcanvas:
     attributes:
       boxed: ''
@@ -173,23 +171,3 @@ content:
     title: Sidebar
     attributes:
       key: sidebar
-  logo-9571:
-    title: 'Logo / Image'
-  horizontalmenu-9034:
-    title: 'Horizontal Menu'
-    attributes:
-      items:
-        -
-          text: Gantry
-          link: 'http://gantry.org'
-          name: Gantry
-        -
-          text: Documentation
-          link: 'http://docs.gantry.org'
-          name: Documentation
-        -
-          text: Download
-          link: 'http://gantry.org/downloads'
-          name: Download
-  totop-8670:
-    title: 'To Top'

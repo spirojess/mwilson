@@ -1,5 +1,5 @@
 name: home_-_option_1
-timestamp: 1550618795
+timestamp: 1550866354
 version: 7
 preset:
   image: 'gantry-admin://images/layouts/default.png'
@@ -27,7 +27,7 @@ particles:
     system-messages-7972: 'System Messages'
   logo:
     logo-9608: 'Logo / Image'
-    logo-9571: 'Logo / Image'
+    logo-1407: 'Logo / Image'
   menu:
     menu-6409: Menu
   social:
@@ -39,12 +39,21 @@ particles:
     position-position-3949: Sidebar
   content:
     system-content-1587: 'Page Content'
-  copyright:
-    copyright-1736: Copyright
-  horizontalmenu:
-    horizontalmenu-9034: 'Horizontal Menu'
-  totop:
-    totop-8670: 'To Top'
   mobile-menu:
     mobile-menu-5697: Mobile-menu
-inherit: {  }
+  custom:
+    custom-4803: 'Custom HTML'
+  horizontalmenu:
+    horizontalmenu-8740: 'Horizontal Menu'
+  totop:
+    totop-8692: 'To Top'
+  copyright:
+    copyright-7309: Copyright
+inherit:
+  default:
+    footer: footer
+    logo-1407: logo-9571
+    custom-4803: custom-5023
+    horizontalmenu-8740: horizontalmenu-9034
+    totop-8692: totop-8670
+    copyright-7309: copyright-1736
