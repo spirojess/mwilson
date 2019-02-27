@@ -1,0 +1,10 @@
+javascript:
+  -
+    location: 'https://cdnjs.cloudflare.com/ajax/libs/headroom/0.7.0/headroom.min.js"'
+    inline: ''
+    in_footer: '1'
+    extra:
+      -
+        defer: 'true'
+    priority: '0'
+    name: headroom

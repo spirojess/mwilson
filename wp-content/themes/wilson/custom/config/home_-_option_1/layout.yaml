@@ -4,14 +4,14 @@ preset:
   name: default
   timestamp: 1544807178
 layout:
+  /header/:
+    -
+      - logo-9221
   /navigation/:
     -
       - system-messages-7972
     -
-      - 'logo-9608 15'
-      - 'menu-6409 65'
-      - 'social-3171 20'
-  /header/: {  }
+      - menu-6409
   /intro/:
     -
       - owlcarousel-9030
@@ -34,19 +34,23 @@ layout:
         'sidebar 25':
           -
             - position-position-3949
+  abovefoot: {  }
   footer: {  }
   /offcanvas/:
     -
       - mobile-menu-5697
 structure:
+  header:
+    attributes:
+      boxed: ''
+      class: center
+      variations: 'nopaddingall nomarginall'
   navigation:
     type: section
     attributes:
       boxed: ''
-  header:
-    attributes:
-      boxed: ''
-      class: ''
+      class: 'nopaddingall center'
+      variations: nomarginall
   intro:
     type: section
     attributes:
@@ -92,6 +96,13 @@ structure:
   container-main:
     attributes:
       boxed: ''
+  abovefoot:
+    type: section
+    inherit:
+      outline: default
+      include:
+        - children
+        - attributes
   footer:
     inherit:
       outline: default
@@ -102,11 +113,12 @@ structure:
     attributes:
       boxed: ''
 content:
-  logo-9608:
+  logo-9221:
     title: 'Logo / Image'
-  social-3171:
-    block:
-      class: g-social-header
+    attributes:
+      image: 'gantry-media://header/marquee_willson_red-1.jpg'
+      svg: ''
+      class: ''
   owlcarousel-9030:
     title: 'Owl Carousel'
     attributes:
@@ -163,6 +175,8 @@ content:
           buttonclass: button-outline
           disable: '0'
           name: 'Bio 2'
+    block:
+      class: centered
   position-position-4734:
     title: Aside
     attributes:

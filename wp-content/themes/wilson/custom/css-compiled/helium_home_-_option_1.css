@@ -8,6 +8,7 @@
    http://docs.gantry.org/gantry5/tutorials/adding-a-custom-style-sheet
  */
 
+@import url('//fonts.googleapis.com/css?family=Montserrat');
 /* line 2, wp-content/plugins/gantry5/engines/nucleus/scss/nucleus/mixins/_nav.scss */
 /* line 12, wp-content/plugins/gantry5/engines/nucleus/scss/nucleus/mixins/_nav.scss */
 /* line 2, wp-content/plugins/gantry5/engines/nucleus/scss/nucleus/mixins/_utilities.scss */
@@ -117,7 +118,7 @@ i.fa-grav-spaceman, i.fa-grav-text, i.fa-grav-full, i.fa-grav-logo, i.fa-grav-sy
 }
 /* line 1, wp-content/themes/g5_helium/scss/helium/styles/_core.scss */
 body {
-  color: #2a363b;
+  color: #333;
   background: #fff;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: auto;
@@ -167,83 +168,23 @@ body span.para {
 }
 /* line 1, wp-content/themes/g5_helium/scss/helium/styles/_hyperlinks.scss */
 a {
-  color: #a8a7a7;
+  color: #850506;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   transition: all 0.2s;
 }
 /* line 5, wp-content/themes/g5_helium/scss/helium/styles/_hyperlinks.scss */
 a:hover {
-  color: #2a363b;
-}
-@font-face {
-  font-family: "raleway";
-  font-style: normal;
-  font-weight: 900;
-  src: url('../../../g5_helium/fonts/raleway/raleway-black/raleway-black-webfont.eot#iefix') format("embedded-opentype"), url('../../../g5_helium/fonts/raleway/raleway-black/raleway-black-webfont.woff2') format("woff2"), url('../../../g5_helium/fonts/raleway/raleway-black/raleway-black-webfont.woff') format("woff"), url('../../../g5_helium/fonts/raleway/raleway-black/raleway-black-webfont.ttf') format("truetype"), url('../../../g5_helium/fonts/raleway/raleway-black/raleway-black-webfont.svg#raleway') format("svg");
-}
-@font-face {
-  font-family: "raleway";
-  font-style: normal;
-  font-weight: 700;
-  src: url('../../../g5_helium/fonts/raleway/raleway-bold/raleway-bold-webfont.eot#iefix') format("embedded-opentype"), url('../../../g5_helium/fonts/raleway/raleway-bold/raleway-bold-webfont.woff2') format("woff2"), url('../../../g5_helium/fonts/raleway/raleway-bold/raleway-bold-webfont.woff') format("woff"), url('../../../g5_helium/fonts/raleway/raleway-bold/raleway-bold-webfont.ttf') format("truetype"), url('../../../g5_helium/fonts/raleway/raleway-bold/raleway-bold-webfont.svg#raleway') format("svg");
-}
-@font-face {
-  font-family: "raleway";
-  font-style: normal;
-  font-weight: 600;
-  src: url('../../../g5_helium/fonts/raleway/raleway-semibold/raleway-semibold-webfont.eot#iefix') format("embedded-opentype"), url('../../../g5_helium/fonts/raleway/raleway-semibold/raleway-semibold-webfont.woff2') format("woff2"), url('../../../g5_helium/fonts/raleway/raleway-semibold/raleway-semibold-webfont.woff') format("woff"), url('../../../g5_helium/fonts/raleway/raleway-semibold/raleway-semibold-webfont.ttf') format("truetype"), url('../../../g5_helium/fonts/raleway/raleway-semibold/raleway-semibold-webfont.svg#raleway') format("svg");
-}
-@font-face {
-  font-family: "raleway";
-  font-style: normal;
-  font-weight: 500;
-  src: url('../../../g5_helium/fonts/raleway/raleway-medium/raleway-medium-webfont.eot#iefix') format("embedded-opentype"), url('../../../g5_helium/fonts/raleway/raleway-medium/raleway-medium-webfont.woff2') format("woff2"), url('../../../g5_helium/fonts/raleway/raleway-medium/raleway-medium-webfont.woff') format("woff"), url('../../../g5_helium/fonts/raleway/raleway-medium/raleway-medium-webfont.ttf') format("truetype"), url('../../../g5_helium/fonts/raleway/raleway-medium/raleway-medium-webfont.svg#raleway') format("svg");
-}
-@font-face {
-  font-family: "raleway";
-  font-style: normal;
-  font-weight: 400;
-  src: url('../../../g5_helium/fonts/raleway/raleway-regular/raleway-regular-webfont.eot#iefix') format("embedded-opentype"), url('../../../g5_helium/fonts/raleway/raleway-regular/raleway-regular-webfont.woff2') format("woff2"), url('../../../g5_helium/fonts/raleway/raleway-regular/raleway-regular-webfont.woff') format("woff"), url('../../../g5_helium/fonts/raleway/raleway-regular/raleway-regular-webfont.ttf') format("truetype"), url('../../../g5_helium/fonts/raleway/raleway-regular/raleway-regular-webfont.svg#raleway') format("svg");
-}
-@font-face {
-  font-family: "raleway";
-  font-style: normal;
-  font-weight: 200;
-  src: url('../../../g5_helium/fonts/raleway/raleway-light/raleway-light-webfont.eot#iefix') format("embedded-opentype"), url('../../../g5_helium/fonts/raleway/raleway-light/raleway-light-webfont.woff2') format("woff2"), url('../../../g5_helium/fonts/raleway/raleway-light/raleway-light-webfont.woff') format("woff"), url('../../../g5_helium/fonts/raleway/raleway-light/raleway-light-webfont.ttf') format("truetype"), url('../../../g5_helium/fonts/raleway/raleway-light/raleway-light-webfont.svg#raleway') format("svg");
-}
-@font-face {
-  font-family: "lato";
-  font-style: normal;
-  font-weight: 900;
-  src: url('../../../g5_helium/fonts/lato/lato-black/lato-black-webfont.eot#iefix') format("embedded-opentype"), url('../../../g5_helium/fonts/lato/lato-black/lato-black-webfont.woff2') format("woff2"), url('../../../g5_helium/fonts/lato/lato-black/lato-black-webfont.woff') format("woff"), url('../../../g5_helium/fonts/lato/lato-black/lato-black-webfont.ttf') format("truetype"), url('../../../g5_helium/fonts/lato/lato-black/lato-black-webfont.svg#lato') format("svg");
-}
-@font-face {
-  font-family: "lato";
-  font-style: normal;
-  font-weight: 700;
-  src: url('../../../g5_helium/fonts/lato/lato-bold/lato-bold-webfont.eot#iefix') format("embedded-opentype"), url('../../../g5_helium/fonts/lato/lato-bold/lato-bold-webfont.woff2') format("woff2"), url('../../../g5_helium/fonts/lato/lato-bold/lato-bold-webfont.woff') format("woff"), url('../../../g5_helium/fonts/lato/lato-bold/lato-bold-webfont.ttf') format("truetype"), url('../../../g5_helium/fonts/lato/lato-bold/lato-bold-webfont.svg#lato') format("svg");
-}
-@font-face {
-  font-family: "lato";
-  font-style: normal;
-  font-weight: 400;
-  src: url('../../../g5_helium/fonts/lato/lato-regular/lato-regular-webfont.eot#iefix') format("embedded-opentype"), url('../../../g5_helium/fonts/lato/lato-regular/lato-regular-webfont.woff2') format("woff2"), url('../../../g5_helium/fonts/lato/lato-regular/lato-regular-webfont.woff') format("woff"), url('../../../g5_helium/fonts/lato/lato-regular/lato-regular-webfont.ttf') format("truetype"), url('../../../g5_helium/fonts/lato/lato-regular/lato-regular-webfont.svg#lato') format("svg");
-}
-@font-face {
-  font-family: "lato";
-  font-style: normal;
-  font-weight: 200;
-  src: url('../../../g5_helium/fonts/lato/lato-light/lato-light-webfont.eot#iefix') format("embedded-opentype"), url('../../../g5_helium/fonts/lato/lato-light/lato-light-webfont.woff2') format("woff2"), url('../../../g5_helium/fonts/lato/lato-light/lato-light-webfont.woff') format("woff"), url('../../../g5_helium/fonts/lato/lato-light/lato-light-webfont.ttf') format("truetype"), url('../../../g5_helium/fonts/lato/lato-light/lato-light-webfont.svg#lato') format("svg");
+  color: #c90003;
 }
 /* line 5, wp-content/themes/g5_helium/scss/helium/styles/_typography.scss */
 body {
-  font-family: "Raleway", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+  font-family: "Montserrat";
   font-weight: 400;
 }
 /* line 11, wp-content/themes/g5_helium/scss/helium/styles/_typography.scss */
 h1, h2, h3, h4, h5 {
-  font-family: "Raleway", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+  font-family: "Montserrat";
   font-weight: 400;
 }
 /* line 16, wp-content/themes/g5_helium/scss/helium/styles/_typography.scss */
@@ -261,13 +202,13 @@ blockquote {
 /* line 28, wp-content/themes/g5_helium/scss/helium/styles/_typography.scss */
 blockquote p {
   font-size: 1.1rem;
-  color: #546d77;
+  color: #666;
 }
 /* line 33, wp-content/themes/g5_helium/scss/helium/styles/_typography.scss */
 blockquote cite {
   display: block;
   text-align: right;
-  color: #2a363b;
+  color: #333;
   font-size: 1.2rem;
 }
 /* line 42, wp-content/themes/g5_helium/scss/helium/styles/_typography.scss */
@@ -558,13 +499,13 @@ hr {
 /* line 145, wp-content/themes/g5_helium/scss/helium/styles/_variations.scss */
 /* line 146, wp-content/themes/g5_helium/scss/helium/styles/_variations.scss */
 .title2 .g-title {
-  background: #474747;
+  background: #333;
   color: #fff;
 }
 /* line 153, wp-content/themes/g5_helium/scss/helium/styles/_variations.scss */
 /* line 154, wp-content/themes/g5_helium/scss/helium/styles/_variations.scss */
 .box2.moduletable, .box2.widget, .box2.g-outer-box, .box2 > .g-content {
-  background: #474747;
+  background: #333;
 }
 /* line 160, wp-content/themes/g5_helium/scss/helium/styles/_variations.scss */
 .box2.moduletable, .box2.widget, .box2 > .g-content {
@@ -573,11 +514,11 @@ hr {
 /* line 165, wp-content/themes/g5_helium/scss/helium/styles/_variations.scss */
 .box2 .button {
   color: #fff;
-  background: #2e2e2e;
+  background: #1a1a1a;
 }
 /* line 169, wp-content/themes/g5_helium/scss/helium/styles/_variations.scss */
 .box2 .button:hover {
-  background: #212121;
+  background: #0d0d0d;
 }
 /* line 174, wp-content/themes/g5_helium/scss/helium/styles/_variations.scss */
 .box2 a {
@@ -590,22 +531,22 @@ hr {
 /* line 184, wp-content/themes/g5_helium/scss/helium/styles/_variations.scss */
 /* line 185, wp-content/themes/g5_helium/scss/helium/styles/_variations.scss */
 .box2.title2 .g-title {
-  background: #2e2e2e;
+  background: #1a1a1a;
 }
 /* line 191, wp-content/themes/g5_helium/scss/helium/styles/_variations.scss */
 /* line 192, wp-content/themes/g5_helium/scss/helium/styles/_variations.scss */
 .title-gradient .g-title {
   background-color: #a8a7a7;
-  background-image: -webkit-linear-gradient(-360deg, #a8a7a7, #474747);
-  background-image: linear-gradient(90deg,#a8a7a7, #474747);
+  background-image: -webkit-linear-gradient(-360deg, #a8a7a7, #333);
+  background-image: linear-gradient(90deg,#a8a7a7, #333);
   color: #fff;
 }
 /* line 199, wp-content/themes/g5_helium/scss/helium/styles/_variations.scss */
 /* line 200, wp-content/themes/g5_helium/scss/helium/styles/_variations.scss */
 .box-gradient.moduletable, .box-gradient.widget, .box-gradient.g-outer-box, .box-gradient > .g-content {
   background-color: #a8a7a7;
-  background-image: -webkit-linear-gradient(-315deg, #a8a7a7, #474747);
-  background-image: linear-gradient(45deg,#a8a7a7, #474747);
+  background-image: -webkit-linear-gradient(-315deg, #a8a7a7, #333);
+  background-image: linear-gradient(45deg,#a8a7a7, #333);
 }
 /* line 206, wp-content/themes/g5_helium/scss/helium/styles/_variations.scss */
 .box-gradient.moduletable, .box-gradient.widget, .box-gradient > .g-content {
@@ -632,8 +573,8 @@ hr {
 /* line 231, wp-content/themes/g5_helium/scss/helium/styles/_variations.scss */
 .box-gradient.title-gradient .g-title {
   background-color: #a8a7a7;
-  background-image: -webkit-linear-gradient(-280deg, #a8a7a7, #474747);
-  background-image: linear-gradient(10deg,#a8a7a7, #474747);
+  background-image: -webkit-linear-gradient(-280deg, #a8a7a7, #333);
+  background-image: linear-gradient(10deg,#a8a7a7, #333);
 }
 /* line 237, wp-content/themes/g5_helium/scss/helium/styles/_variations.scss */
 /* line 238, wp-content/themes/g5_helium/scss/helium/styles/_variations.scss */
@@ -684,7 +625,7 @@ hr {
 /* line 2, wp-content/themes/g5_helium/scss/helium/styles/_buttons.scss */
 .button {
   display: inline-block;
-  font-family: "Lato", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+  font-family: "Montserrat";
   font-weight: 600;
   font-size: 0.8rem;
   line-height: 1.15;
@@ -755,14 +696,14 @@ hr {
 }
 /* line 75, wp-content/themes/g5_helium/scss/helium/styles/_buttons.scss */
 .button.button-2 {
-  background: #474747;
+  background: #333;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   transition: all 0.2s;
 }
 /* line 80, wp-content/themes/g5_helium/scss/helium/styles/_buttons.scss */
 .button.button-2:hover, .button.button-2:active, .button.button-2:focus {
-  background: #2e2e2e;
+  background: #1a1a1a;
   color: #fff;
 }
 /* line 86, wp-content/themes/g5_helium/scss/helium/styles/_buttons.scss */
@@ -780,8 +721,8 @@ hr {
 /* line 98, wp-content/themes/g5_helium/scss/helium/styles/_buttons.scss */
 .button.button-gradient {
   background-color: #a8a7a7;
-  background-image: -webkit-linear-gradient(-360deg, #a8a7a7, #474747);
-  background-image: linear-gradient(90deg,#a8a7a7, #474747);
+  background-image: -webkit-linear-gradient(-360deg, #a8a7a7, #333);
+  background-image: linear-gradient(90deg,#a8a7a7, #333);
   border: none;
 }
 /* line 102, wp-content/themes/g5_helium/scss/helium/styles/_buttons.scss */
@@ -1471,7 +1412,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 /* line 115, wp-content/themes/g5_helium/scss/helium/styles/_helium-style.scss */
 .g-home-particles.g-helium-style .fp-features .g-block .card .card-block .card-subtitle {
   display: block;
-  color: rgba(42, 54, 59, 0.5);
+  color: rgba(51, 51, 51, 0.5);
   margin-bottom: 1.5rem;
   font-weight: 200;
 }
@@ -1551,7 +1492,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 }
 /* line 5, wp-content/themes/g5_helium/scss/helium/sections/_pagesurround.scss */
 .g-bodyonly #g-page-surround {
-  color: #2a363b;
+  color: #333;
   background: #fff;
 }
 @media print {
@@ -1563,31 +1504,11 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 }
 /* line 1, wp-content/themes/g5_helium/scss/helium/sections/_header.scss */
 #g-header {
-  background-color: #474747;
+  background-color: #850506;
   color: #eceeef;
   padding: 3rem 0;
   position: relative;
   z-index: 10;
-  background-image: url('../../../g5_helium/images/header/img01.jpg');
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-/* line 15, wp-content/themes/g5_helium/scss/helium/sections/_header.scss */
-#g-header:before {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  content: "";
-  z-index: -1;
-  opacity: 0.85;
-  background-color: #a8a7a7;
-  background-image: -webkit-linear-gradient(-310deg, #a8a7a7, #474747);
-  background-image: linear-gradient(40deg,#a8a7a7, #474747);
 }
 /* line 32, wp-content/themes/g5_helium/scss/helium/sections/_header.scss */
 #g-header a {
@@ -1634,7 +1555,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 }
 /* line 1, wp-content/themes/g5_helium/scss/helium/sections/_navigation.scss */
 #g-navigation {
-  background: #474747;
+  background: #c90003;
   color: #fff;
   position: relative;
   z-index: 11;
@@ -1677,7 +1598,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 }
 /* line 48, wp-content/themes/g5_helium/scss/helium/sections/_navigation.scss */
 #g-navigation .g-main-nav {
-  font-family: "Lato", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+  font-family: "Montserrat";
   font-weight: 700;
   line-height: 1.5;
 }
@@ -1739,7 +1660,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 }
 /* line 111, wp-content/themes/g5_helium/scss/helium/sections/_navigation.scss */
 #g-navigation .g-main-nav .g-dropdown {
-  background: #4c4c4c;
+  background: #d30003;
   border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 0.25rem;
 }
@@ -2015,7 +1936,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 /* line 1, wp-content/themes/g5_helium/scss/helium/sections/_intro.scss */
 #g-intro {
   background: #f4f5f7;
-  color: #2a363b;
+  color: #333;
   padding: 3rem 0;
 }
 @media print {
@@ -2028,7 +1949,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 /* line 1, wp-content/themes/g5_helium/scss/helium/sections/_features.scss */
 #g-features {
   background: #fff;
-  color: #2a363b;
+  color: #333;
   padding: 3rem 0;
 }
 @media print {
@@ -2054,7 +1975,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 /* line 1, wp-content/themes/g5_helium/scss/helium/sections/_above.scss */
 #g-above {
   background: #f4f5f7;
-  color: #2a363b;
+  color: #333;
   padding: 3rem 0;
 }
 @media print {
@@ -2077,8 +1998,8 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 /* line 13, wp-content/themes/g5_helium/scss/helium/sections/_testimonials.scss */
 #g-testimonials:before {
   background-color: #a8a7a7;
-  background-image: -webkit-linear-gradient(-310deg, #a8a7a7, #474747);
-  background-image: linear-gradient(40deg,#a8a7a7, #474747);
+  background-image: -webkit-linear-gradient(-310deg, #a8a7a7, #333);
+  background-image: linear-gradient(40deg,#a8a7a7, #333);
   opacity: 0.9;
   position: absolute;
   content: "";
@@ -2106,7 +2027,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 /* line 1, wp-content/themes/g5_helium/scss/helium/sections/_expanded.scss */
 #g-expanded {
   background: #fff;
-  color: #2a363b;
+  color: #333;
   padding: 3rem;
 }
 @media only all and (min-width: 48rem) and (max-width: 59.938rem) {
@@ -2124,7 +2045,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 /* line 1, wp-content/themes/g5_helium/scss/helium/sections/_main.scss */
 #g-mainbar {
   background: #fff;
-  color: #2a363b;
+  color: #333;
   padding: 3rem 0;
 }
 @media print {
@@ -2137,7 +2058,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 /* line 1, wp-content/themes/g5_helium/scss/helium/sections/_aside.scss */
 #g-aside {
   background: #fff;
-  color: #2a363b;
+  color: #333;
   padding: 3rem 0;
 }
 @media print {
@@ -2150,7 +2071,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 /* line 1, wp-content/themes/g5_helium/scss/helium/sections/_sidebar.scss */
 #g-sidebar {
   background: #fff;
-  color: #2a363b;
+  color: #333;
   padding: 3rem 0;
 }
 @media print {
@@ -2162,7 +2083,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 }
 /* line 1, wp-content/themes/g5_helium/scss/helium/sections/_footer.scss */
 #g-footer {
-  background: #474747;
+  background: #333;
   color: #fff;
   padding: 3rem 0;
 }
@@ -2220,7 +2141,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 }
 /* line 1, wp-content/themes/g5_helium/scss/helium/sections/_offcanvas.scss */
 #g-offcanvas {
-  background: #474747;
+  background: #c90003;
   width: 12rem;
   color: #eceeef;
 }
@@ -2238,16 +2159,16 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 }
 /* line 18, wp-content/themes/g5_helium/scss/helium/sections/_offcanvas.scss */
 #g-offcanvas .button {
-  background: #474747;
+  background: #333;
   color: #eceeef;
 }
 /* line 21, wp-content/themes/g5_helium/scss/helium/sections/_offcanvas.scss */
 #g-offcanvas .button:hover {
-  background: #545454;
+  background: #404040;
 }
 /* line 24, wp-content/themes/g5_helium/scss/helium/sections/_offcanvas.scss */
 #g-offcanvas .button:active {
-  background: #3a3a3a;
+  background: #262626;
 }
 /* line 29, wp-content/themes/g5_helium/scss/helium/sections/_offcanvas.scss */
 #g-offcanvas hr {
@@ -2308,7 +2229,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 /* line 96, wp-content/themes/g5_helium/scss/helium/sections/_offcanvas.scss */
 /* line 97, wp-content/themes/g5_helium/scss/helium/sections/_offcanvas.scss */
 #g-offcanvas #g-mobilemenu-container ul {
-  background: #474747;
+  background: #c90003;
 }
 /* line 100, wp-content/themes/g5_helium/scss/helium/sections/_offcanvas.scss */
 /* line 101, wp-content/themes/g5_helium/scss/helium/sections/_offcanvas.scss */
@@ -2508,7 +2429,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 }
 /* line 1, wp-content/themes/g5_helium/scss/helium/particles/_logo.scss */
 .g-logo {
-  font-family: "Lato", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+  font-family: "Montserrat";
   font-weight: 900;
   font-size: 1.35rem;
   vertical-align: middle;
@@ -2616,7 +2537,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 /* line 1, wp-content/themes/g5_helium/scss/helium/particles/_contentcubes.scss */
 /* line 3, wp-content/themes/g5_helium/scss/helium/particles/_contentcubes.scss */
 .g-contentcubes .cube-items-wrapper {
-  background: linear-gradient(45deg, #474747, #a8a7a7);
+  background: linear-gradient(45deg, #333, #a8a7a7);
   color: #fff;
 }
 /* line 8, wp-content/themes/g5_helium/scss/helium/particles/_contentcubes.scss */
@@ -3186,7 +3107,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
   width: 15px;
   height: 15px;
   margin: 0 0.3125rem;
-  background: #2a363b;
+  background: #333;
   display: block;
   -webkit-backface-visibility: visible;
   transition: opacity 200ms ease;
@@ -3304,7 +3225,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 }
 /* line 390, wp-content/themes/g5_helium/scss/helium/particles/_owlcarousel.scss */
 .g-owlcarousel .g-owlcarousel-item-wrapper .g-owlcarousel-item-content-container .g-owlcarousel-item-content-wrapper .g-owlcarousel-item-content .g-owlcarousel-item-title {
-  font-family: "Raleway", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+  font-family: "Montserrat";
   font-size: 3.5rem;
   line-height: 4rem;
   font-weight: 500;
@@ -3461,7 +3382,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 /* line 533, wp-content/themes/g5_helium/scss/helium/particles/_owlcarousel.scss */
 .g-owlcarousel .owl-dots .owl-dot {
   display: inline-block;
-  background: #2a363b;
+  background: #333;
   margin: 0 0.3125rem;
   width: 15px;
   height: 15px;
@@ -3482,17 +3403,17 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 .g-owlcarousel.has-color-overlay .owl-stage > .owl-item:nth-child(even) .g-owlcarousel-item-img:after {
   background-color: #a8a7a7;
   background-color: #a8a7a7;
-  background-image: -webkit-linear-gradient(-310deg, #a8a7a7, #474747);
-  background-image: linear-gradient(40deg,#a8a7a7, #474747);
+  background-image: -webkit-linear-gradient(-310deg, #a8a7a7, #333);
+  background-image: linear-gradient(40deg,#a8a7a7, #333);
   opacity: 0.9;
 }
 /* line 561, wp-content/themes/g5_helium/scss/helium/particles/_owlcarousel.scss */
 /* line 562, wp-content/themes/g5_helium/scss/helium/particles/_owlcarousel.scss */
 .g-owlcarousel.has-color-overlay .owl-stage > .owl-item:nth-child(odd) .g-owlcarousel-item-img:after {
-  background-color: #474747;
-  background-color: #474747;
-  background-image: -webkit-linear-gradient(-410deg, #474747, #a8a7a7);
-  background-image: linear-gradient(140deg,#474747, #a8a7a7);
+  background-color: #333;
+  background-color: #333;
+  background-image: -webkit-linear-gradient(-410deg, #333, #a8a7a7);
+  background-image: linear-gradient(140deg,#333, #a8a7a7);
   opacity: 0.9;
 }
 /* line 1, wp-content/themes/g5_helium/scss/helium/particles/_horizontalmenu.scss */
@@ -3500,7 +3421,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
   list-style: none;
   margin: 0;
   padding: 0;
-  font-family: "Lato", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+  font-family: "Montserrat";
   font-weight: 700;
 }
 @media only all and (max-width: 47.938rem) {
@@ -3529,7 +3450,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 }
 /* line 1, wp-content/themes/g5_helium/scss/helium/particles/_totop.scss */
 .g-totop {
-  font-family: "Lato", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+  font-family: "Montserrat";
   font-weight: 700;
   text-align: right;
 }

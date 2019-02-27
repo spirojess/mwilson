@@ -8,4 +8,8 @@
    http://docs.gantry.org/gantry5/tutorials/adding-a-custom-style-sheet
  */
 
-/* @import "custom.scss" */
+/* line 1, wp-content/themes/skinnywilson/custom/scss/custom.scss */
+.slide {
+  height: 80vh;
+}
+/*# sourceMappingURL=custom__offline.css.map */

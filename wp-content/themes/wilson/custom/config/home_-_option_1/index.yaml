@@ -1,5 +1,5 @@
 name: home_-_option_1
-timestamp: 1550866354
+timestamp: 1551303563
 version: 7
 preset:
   image: 'gantry-admin://images/layouts/default.png'
@@ -9,6 +9,7 @@ positions:
   aside: Aside
   sidebar: Sidebar
 sections:
+  header: Header
   navigation: Navigation
   intro: Intro
   features: Features
@@ -16,22 +17,21 @@ sections:
   above: Above
   testimonials: Testimonials
   expanded: Expanded
-  header: Header
+  abovefoot: Abovefoot
   aside: Aside
   sidebar: Sidebar
   mainbar: Mainbar
   footer: Footer
   offcanvas: Offcanvas
 particles:
+  logo:
+    logo-9221: 'Logo / Image'
+    logo-9455: 'Logo / Image'
+    logo-1407: 'Logo / Image'
   messages:
     system-messages-7972: 'System Messages'
-  logo:
-    logo-9608: 'Logo / Image'
-    logo-1407: 'Logo / Image'
   menu:
     menu-6409: Menu
-  social:
-    social-3171: Social
   owlcarousel:
     owlcarousel-9030: 'Owl Carousel'
   position:
@@ -41,19 +41,20 @@ particles:
     system-content-1587: 'Page Content'
   mobile-menu:
     mobile-menu-5697: Mobile-menu
-  custom:
-    custom-4803: 'Custom HTML'
   horizontalmenu:
-    horizontalmenu-8740: 'Horizontal Menu'
+    horizontalmenu-5171: 'Explore Menu'
+    horizontalmenu-3704: Aquire
   totop:
     totop-8692: 'To Top'
   copyright:
     copyright-7309: Copyright
 inherit:
   default:
+    abovefoot: abovefoot
     footer: footer
-    logo-1407: logo-9571
-    custom-4803: custom-5023
-    horizontalmenu-8740: horizontalmenu-9034
+    logo-9455: logo-4773
+    horizontalmenu-5171: horizontalmenu-9034
+    horizontalmenu-3704: horizontalmenu-6755
     totop-8692: totop-8670
     copyright-7309: copyright-1736
+    logo-1407: logo-9571

@@ -1,5 +1,5 @@
 name: home_-_option_1
-timestamp: 1550608598
+timestamp: 1551221137
 version: 7
 preset:
   image: 'gantry-admin://images/layouts/default.png'
@@ -9,6 +9,7 @@ positions:
   aside: Aside
   sidebar: Sidebar
 sections:
+  header: Header
   navigation: Navigation
   intro: Intro
   features: Features
@@ -16,24 +17,22 @@ sections:
   above: Above
   testimonials: Testimonials
   expanded: Expanded
-  header: Header
   aside: Aside
   sidebar: Sidebar
   mainbar: Mainbar
   footer: Footer
   offcanvas: Offcanvas
 particles:
-  messages:
-    system-messages-7972: 'System Messages'
   logo:
+    logo-8934: 'Logo / Image'
     logo-9608: 'Logo / Image'
     logo-9571: 'Logo / Image'
+  messages:
+    system-messages-7972: 'System Messages'
   menu:
     menu-6409: Menu
-  social:
-    social-3171: Social
   owlcarousel:
-    owlcarousel-9030: 'Owl Carousel'
+    owlcarousel-9377: 'Owl Carousel'
   position:
     position-position-4734: Aside
     position-position-3949: Sidebar

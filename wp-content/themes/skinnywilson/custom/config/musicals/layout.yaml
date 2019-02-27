@@ -1,0 +1,165 @@
+version: 2
+preset:
+  image: 'gantry-admin://images/layouts/default.png'
+  name: default
+  timestamp: 1544807178
+layout:
+  navigation: {  }
+  header: {  }
+  intro: {  }
+  features: {  }
+  utility: {  }
+  /above/:
+    -
+      - system-content-1587
+  testimonials: {  }
+  expanded: {  }
+  /container-main/:
+    -
+      -
+        'aside 25': {  }
+      -
+        'mainbar 50':
+          -
+            - contentarray-3069
+      -
+        'sidebar 25': {  }
+  footer: {  }
+  offcanvas: {  }
+structure:
+  navigation:
+    type: section
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - block
+        - children
+  header:
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - block
+        - children
+  intro:
+    type: section
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - block
+        - children
+  features:
+    type: section
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - block
+        - children
+  utility:
+    type: section
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - block
+        - children
+  above:
+    type: section
+    attributes:
+      boxed: ''
+      class: ''
+      variations: ''
+  testimonials:
+    type: section
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - block
+        - children
+  expanded:
+    type: section
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - block
+        - children
+  aside:
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - block
+        - children
+    block:
+      fixed: '1'
+  mainbar:
+    type: section
+    subtype: main
+    attributes:
+      class: ''
+      variations: ''
+  sidebar:
+    type: section
+    subtype: aside
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - block
+        - children
+    block:
+      fixed: '1'
+  container-main:
+    attributes:
+      boxed: ''
+  footer:
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - block
+        - children
+  offcanvas:
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - block
+        - children
+content:
+  contentarray-3069:
+    title: 'WordPress Posts'
+    attributes:
+      post:
+        filter:
+          categories: '5'
+          posts: ''
+          sticky: show
+        limit:
+          total: '3'
+          columns: '3'
+          start: '0'
+        display:
+          pagination_buttons: ''
+          image:
+            enabled: show
+          title:
+            enabled: show
+          read_more:
+            enabled: show
+          author:
+            enabled: show
+          category:
+            enabled: link
+          comments:
+            enabled: show
+          text:
+            type: content
+        sort:
+          orderby: date
+          ordering: DESC

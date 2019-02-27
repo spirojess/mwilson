@@ -8,8 +8,115 @@
    http://docs.gantry.org/gantry5/tutorials/adding-a-custom-style-sheet
  */
 
-/* line 1, wp-content/themes/wilson/custom/scss/custom.scss */
+/* @override 
+ http://localhost:8888/mwilson/wp-content/themes/wilson/custom/css-compiled/helium-wordpress_home_-_option_1.css?*
+ http://localhost:8888/mwilson/wp-content/themes/wilson/custom/css-compiled/custom_home_-_option_1.css?*
+ http://localhost:8888/mwilson/wp-content/themes/wilson/custom/css-compiled/custom.css?* */
+/* @group ----------- HEADER -------------- */
+/* line 8, wp-content/themes/wilson/custom/scss/custom.scss */
+div#logo-9221-particle.g-content.g-particle a img {
+  max-height: 280px;
+}
+/* @end */
+/* @group -----------  MENU . ---------- */
+/* line 17, wp-content/themes/wilson/custom/scss/custom.scss */
+svg#Layer_1 path {
+  fill: white;
+}
+/* line 21, wp-content/themes/wilson/custom/scss/custom.scss */
+span.g-menu-item-title {
+  text-transform: uppercase;
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: none;
+  font-size: 0.9em;
+}
+/* @end */
+/* @group ----------  OWL CAROUSEL ---------- */
+/* line 33, wp-content/themes/wilson/custom/scss/custom.scss */
 .slide {
   height: 80vh;
+}
+/* @end */
+/* @group ----------- ABOVE FOOT ----------------- */
+/* line 40, wp-content/themes/wilson/custom/scss/custom.scss */
+section#g-abovefoot div.g-container div.g-grid {
+  max-width: 600px;
+}
+/* line 45, wp-content/themes/wilson/custom/scss/custom.scss */
+section#g-abovefoot {
+  background-color: #474747;
+  padding-top: 33px;
+}
+/* line 50, wp-content/themes/wilson/custom/scss/custom.scss */
+#g-abovefoot ul.g-horizontalmenu li {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  text-decoration: none;
+  color: #999;
+  padding: 0;
+  line-height: 1.8em;
+}
+/* line 61, wp-content/themes/wilson/custom/scss/custom.scss */
+#g-abovefoot ul.g-horizontalmenu {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: none;
+  color: #999;
+}
+/* line 72, wp-content/themes/wilson/custom/scss/custom.scss */
+#g-abovefoot a {
+  text-decoration: none;
+  color: #999;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  padding-top: 0;
+  margin-top: 0;
+}
+/* line 82, wp-content/themes/wilson/custom/scss/custom.scss */
+#g-abovefoot ul.g-horizontalmenu li:first-child {
+  font-weight: bold;
+  line-height: 2.2em;
+}
+/* line 87, wp-content/themes/wilson/custom/scss/custom.scss */
+#g-abovefoot .g-grid {
+  margin-right: auto;
+  margin-left: auto;
+}
+/* line 92, wp-content/themes/wilson/custom/scss/custom.scss */
+#g-abovefoot svg#Layer_1 path {
+  opacity: 0.65;
+}
+/* @end */
+/* @group ------------- FOOTER Group -------------- */
+/* line 100, wp-content/themes/wilson/custom/scss/custom.scss */
+footer#g-footer {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+/* line 104, wp-content/themes/wilson/custom/scss/custom.scss */
+div#copyright-7309-particle.g-content.g-particle div.g-copyright {
+  font-size: 0.6em;
+  color: #bbbdc0;
+}
+/* line 109, wp-content/themes/wilson/custom/scss/custom.scss */
+#g-footer svg#Layer_1 path {
+  opacity: 0.5;
+}
+/* @end */
+/* line 115, wp-content/themes/wilson/custom/scss/custom.scss */
+body.home section.entry-header h2.entry-title {
+  font: 3em "Montserrat", Arial, Helvetica, Geneva, sans-serif;
+  font-weight: 800;
+  max-width: 400px;
+}
+/* line 121, wp-content/themes/wilson/custom/scss/custom.scss */
+body.home section.entry-header h2.entry-title span {
+  color: #c90003;
 }
 /*# sourceMappingURL=custom__error.css.map */

@@ -1,11 +1,15 @@
 {% extends '@nucleus/partials/particle.html.twig' %}
 
+{% block stylesheets %}
+    <link rel="stylesheet" href="wilson.scss" />
+{% endblock %}
+
 {% block particle %}
 
     <div class="{{ particle.class|e }}">
         {% if particle.title %}<h2 class="g-title">{{ particle.title|raw }}</h2>{% endif %}
 
-        <div id="g-owlcarousel-{{ id }}" class="g-owlcarousel owl-carousel {% if particle.imageOverlay == 'enable' %}has-color-overlay{% endif %}">
+        <div id="g-owlcarousel-{{ id }}" class="g-owlcarousel owl-carousel">
 
             {% for item in particle.items %}
                 {% if not item.disable %}

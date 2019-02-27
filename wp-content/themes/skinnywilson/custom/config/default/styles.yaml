@@ -1,53 +1,41 @@
-preset: preset6
+preset: preset4
 base:
-  background: '#363636'
-  text-color: '#a8a7a7'
+  background: '#ffffff'
+  text-color: '#666666'
+  body-font: 'roboto, sans-serif'
+  heading-font: 'roboto, sans-serif'
 accent:
-  color-1: '#a8a7a7'
-  color-2: '#474747'
-font:
-  family-default: 'Raleway, Helvetica, Tahoma, Geneva, Arial, sans-serif'
-  family-title: 'Lato, Helvetica, Tahoma, Geneva, Arial, sans-serif'
-link:
-  regular: '#a8a7a7'
-  hover: '#eceeef'
+  color-1: '#c90003'
+  color-2: '#757575'
 navigation:
-  background: '#474747'
+  background: '#c90003'
   text-color: '#ffffff'
+  overlay: 'rgba(0, 0, 0, 0.4)'
 header:
-  background: '#474747'
-  background-image: 'gantry-media://header/img01.jpg'
-  background-overlay: enabled
-  text-color: '#eceeef'
-intro:
-  background: '#474747'
+  background: '#850506'
   text-color: '#ffffff'
-features:
-  background: '#363636'
-  text-color: '#ffffff'
-utility:
-  background: '#474747'
-  text-color: '#ffffff'
-above:
-  background: '#a8a7a7'
-  text-color: '#ffffff'
-testimonials:
-  background: '#a8a7a7'
-  background-image: 'gantry-media://testimonials/img01.jpg'
-  background-overlay: enabled
-  text-color: '#eceeef'
-expanded:
-  background: '#363636'
-  text-color: '#ffffff'
+main:
+  background: '#ffffff'
+  text-color: '#666666'
 footer:
-  background: '#474747'
-  text-color: '#ffffff'
+  background: '#ffffff'
+  text-color: '#666666'
 offcanvas:
-  background: '#474747'
-  text-color: '#eceeef'
+  background: '#850506'
+  text-color: '#ffffff'
+  width: 12rem
   toggle-color: '#a8a7a7'
   toggle-visibility: '1'
-  width: 12rem
+feature:
+  background: '#ffffff'
+  text-color: '#666666'
+showcase:
+  background: '#850506'
+  image: ''
+  text-color: '#ffffff'
+subfeature:
+  background: '#f0f0f0'
+  text-color: '#666666'
 breakpoints:
   large-desktop-container: 75rem
   desktop-container: 60rem

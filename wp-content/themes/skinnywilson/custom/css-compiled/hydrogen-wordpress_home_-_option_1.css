@@ -110,7 +110,7 @@ legend small {
 .search-form input.search-field {
   height: 40px;
   padding-top: 3px;
-  color: #a8a7a7;
+  color: #666;
 }
 /* line 2, wp-content/themes/g5_hydrogen/scss/hydrogen-wordpress/_pagination.scss */
 @media only all and (max-width: 47.938rem) {
@@ -135,7 +135,7 @@ legend small {
 }
 /* line 12, wp-content/themes/g5_hydrogen/scss/hydrogen-wordpress/_comments.scss */
 #comments ol.commentlist li.comment .comment-author {
-  background-color: #474747;
+  background-color: #c90003;
   color: #fff;
 }
 /* line 16, wp-content/themes/g5_hydrogen/scss/hydrogen-wordpress/_comments.scss */
@@ -144,17 +144,17 @@ legend small {
 }
 /* line 18, wp-content/themes/g5_hydrogen/scss/hydrogen-wordpress/_comments.scss */
 #comments ol.commentlist li.comment .comment-author a:hover {
-  color: #354d59;
+  color: #850506;
 }
 /* line 24, wp-content/themes/g5_hydrogen/scss/hydrogen-wordpress/_comments.scss */
 /* line 25, wp-content/themes/g5_hydrogen/scss/hydrogen-wordpress/_comments.scss */
 /* line 26, wp-content/themes/g5_hydrogen/scss/hydrogen-wordpress/_comments.scss */
 #comments ol.commentlist li.comment.bypostauthor > .comment-body > .comment-author {
-  background-color: #354d59;
+  background-color: #850506;
   color: #fff;
 }
 /* line 30, wp-content/themes/g5_hydrogen/scss/hydrogen-wordpress/_comments.scss */
 #comments ol.commentlist li.comment.bypostauthor > .comment-body > .comment-author a:hover {
-  color: #a8a7a7;
+  color: #c90003;
 }
 /*# sourceMappingURL=hydrogen-wordpress_home_-_option_1.css.map */

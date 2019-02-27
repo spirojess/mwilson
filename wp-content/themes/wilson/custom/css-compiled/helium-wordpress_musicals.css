@@ -139,7 +139,7 @@ legend small {
 /* line 56, wp-content/themes/g5_helium/scss/helium-wordpress/_core.scss */
 /* line 57, wp-content/themes/g5_helium/scss/helium-wordpress/_core.scss */
 #g-page-surround .search-form input.search-field {
-  color: #2a363b;
+  color: #333;
 }
 /* line 2, wp-content/themes/g5_helium/scss/helium-wordpress/_pagination.scss */
 /* line 4, wp-content/themes/g5_helium/scss/helium-wordpress/_pagination.scss */
@@ -232,7 +232,7 @@ legend small {
 #g-page-surround .entry-meta > div[class^="meta-"] {
   display: inline-block;
   margin: 0;
-  font-family: "Raleway", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+  font-family: "Montserrat";
   text-transform: uppercase;
   font-size: 0.85rem;
   line-height: 1.35;
@@ -319,7 +319,7 @@ legend small {
 /* line 69, wp-content/themes/g5_helium/scss/helium-wordpress/_comments.scss */
 /* line 70, wp-content/themes/g5_helium/scss/helium-wordpress/_comments.scss */
 #comments ol.commentlist li.comment .comment-author .author-meta time a, #comments ol.commentlist li.comment .comment-author .author-meta .edit-link a {
-  color: #2a363b;
+  color: #333;
 }
 /* line 72, wp-content/themes/g5_helium/scss/helium-wordpress/_comments.scss */
 #comments ol.commentlist li.comment .comment-author .author-meta time a:hover, #comments ol.commentlist li.comment .comment-author .author-meta .edit-link a:hover {
@@ -340,7 +340,7 @@ legend small {
 }
 /* line 91, wp-content/themes/g5_helium/scss/helium-wordpress/_comments.scss */
 #comments ol.commentlist li.comment.bypostauthor > .comment-body > .comment-author .author-name a:hover {
-  color: #2a363b;
+  color: #333;
 }
 /* line 100, wp-content/themes/g5_helium/scss/helium-wordpress/_comments.scss */
 #comments ol.commentlist li.comment .comment-content {
@@ -415,7 +415,7 @@ legend small {
 /* line 32, wp-content/themes/g5_helium/scss/helium-wordpress/_widgets.scss */
 .widget.widget_tag_cloud a {
   display: inline-block;
-  font-family: "Lato", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+  font-family: "Montserrat";
   border-radius: 0.25rem;
   background: #a8a7a7;
   color: #fff;

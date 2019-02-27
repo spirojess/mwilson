@@ -1,1 +1,123 @@
-.slide {height:80vh;}
+/* @override 
+	http://localhost:8888/mwilson/wp-content/themes/wilson/custom/css-compiled/helium-wordpress_home_-_option_1.css?*
+	http://localhost:8888/mwilson/wp-content/themes/wilson/custom/css-compiled/custom_home_-_option_1.css?*
+	http://localhost:8888/mwilson/wp-content/themes/wilson/custom/css-compiled/custom.css?* */
+	
+	/* @group ----------- HEADER -------------- */
+
+div#logo-9221-particle.g-content.g-particle a img {
+	max-height: 280px;
+}
+
+/* @end */
+
+/* @group -----------  MENU . ---------- */
+
+
+svg#Layer_1 path {
+	fill: white;
+}
+
+span.g-menu-item-title {
+	text-transform: uppercase;
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: none;
+	font-size: .9em;
+}
+
+/* @end */
+
+/* @group ----------  OWL CAROUSEL ---------- */
+	
+	.slide {height:80vh;}
+	
+	/* @end */
+	
+	/* @group ----------- ABOVE FOOT ----------------- */
+
+
+section#g-abovefoot div.g-container div.g-grid  {
+	max-width: 600px;
+}
+
+
+section#g-abovefoot {
+	background-color: #474747;
+	padding-top: 33px;
+}
+
+#g-abovefoot ul.g-horizontalmenu li {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	text-decoration: none;
+	color: #999999;
+	padding: 0;
+	line-height: 1.8em;
+}
+
+
+#g-abovefoot ul.g-horizontalmenu {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: none;
+	color: #999999;
+}
+
+#g-abovefoot a {
+	text-decoration: none;
+	color: #999999;
+	margin-bottom: 0;
+	padding-bottom: 0;
+	padding-top: 0;
+	margin-top: 0;
+}
+
+
+#g-abovefoot ul.g-horizontalmenu li:first-child{
+	font-weight: bold;
+	line-height: 2.2em;
+}
+
+#g-abovefoot .g-grid {
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#g-abovefoot svg#Layer_1 path {
+	opacity: 0.65;
+}
+
+/* @end */
+
+/* @group ------------- FOOTER Group -------------- */
+
+footer#g-footer {
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+div#copyright-7309-particle.g-content.g-particle div.g-copyright {
+	font-size: .6em;
+	color: #bbbdc0;
+}
+
+#g-footer svg#Layer_1 path {
+	opacity: .5 ;
+}
+/* @end */
+
+
+body.home section.entry-header h2.entry-title {
+font: 3em "Montserrat", Arial, Helvetica, Geneva, sans-serif;
+font-weight: 800;
+max-width: 400px;
+}
+
+body.home section.entry-header h2.entry-title span{
+	color: #c90003;
+}

@@ -4,17 +4,18 @@ preset:
   name: default
   timestamp: 1544807178
 layout:
+  /header/:
+    -
+      - logo-8934
   /navigation/:
     -
       - system-messages-7972
     -
-      - 'logo-9608 15'
-      - 'menu-6409 65'
-      - 'social-3171 20'
-  /header/: {  }
+      - 'logo-9608 20'
+      - 'menu-6409 80'
   /intro/:
     -
-      - owlcarousel-9030
+      - owlcarousel-9377
   /features/: {  }
   /utility/: {  }
   /above/: {  }
@@ -44,18 +45,19 @@ layout:
     -
       - mobile-menu-5697
 structure:
+  header:
+    attributes:
+      boxed: '0'
+      class: ''
+      variations: ''
   navigation:
     type: section
     attributes:
       boxed: ''
-  header:
-    attributes:
-      boxed: ''
-      class: ''
   intro:
     type: section
     attributes:
-      boxed: '2'
+      boxed: '0'
       class: ''
       variations: ''
   features:
@@ -96,7 +98,9 @@ structure:
       fixed: '1'
   container-main:
     attributes:
-      boxed: ''
+      boxed: '0'
+      class: ''
+      extra: {  }
   footer:
     attributes:
       boxed: ''
@@ -104,37 +108,38 @@ structure:
     attributes:
       boxed: ''
 content:
+  logo-8934:
+    title: 'Logo / Image'
+    attributes:
+      image: 'gantry-media://marquee_willson_red.jpg'
+      link: '1'
+      svg: ''
   logo-9608:
     title: 'Logo / Image'
-  social-3171:
-    block:
-      class: g-social-header
-  owlcarousel-9030:
+  owlcarousel-9377:
     title: 'Owl Carousel'
     attributes:
-      autoplay: enable
-      imageOverlay: disable
       items:
         -
-          class: ''
+          class: slide
           image: 'gantry-media://MWilson-marching.jpg'
-          title: ''
-          desc: ''
+          title: Title
+          desc: 'Description is what this is'
           link: /bio
-          linktext: ''
+          linktext: 'MORE:::::::::::'
           buttonclass: button-outline
           disable: '0'
-          name: 'Meredith Marching'
+          name: march
         -
-          class: ''
-          image: 'gantry-media://musicman_bnr.jpg'
-          title: ''
-          desc: ''
-          link: /musicals
-          linktext: Musicals
+          class: slide
+          image: 'gantry-media://2019/02/image-18.png'
+          title: Title
+          desc: 'Description is what this is'
+          link: /bio
+          linktext: 'MORE:::::::::::'
           buttonclass: button-outline
           disable: '0'
-          name: 'The Music Man'
+          name: march
   position-position-4734:
     title: Aside
     attributes:
