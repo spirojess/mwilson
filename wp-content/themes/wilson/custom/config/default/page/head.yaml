@@ -1,3 +1,9 @@
 meta: {  }
 head_bottom: ''
-atoms: {  }
+atoms:
+  -
+    title: Lightcase
+    type: lightcase
+    attributes:
+      enabled: true
+    id: lightcase-7339

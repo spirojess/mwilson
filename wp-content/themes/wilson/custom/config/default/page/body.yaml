@@ -5,4 +5,4 @@ attribs:
 layout:
   sections: '0'
 body_top: ''
-body_bottom: ''
+body_bottom: '<link href="https://fonts.googleapis.com/css?family=Yellowtail" rel="stylesheet">'

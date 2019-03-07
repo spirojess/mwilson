@@ -126,12 +126,12 @@ body {
 /* line 7, wp-content/themes/g5_helium/scss/helium/styles/_core.scss */
 body *::selection {
   color: #fff;
-  background: #a8a7a7;
+  background: #f7c118;
 }
 /* line 12, wp-content/themes/g5_helium/scss/helium/styles/_core.scss */
 body *::-moz-selection {
   color: #fff;
-  background: #a8a7a7;
+  background: #f7c118;
 }
 /* line 18, wp-content/themes/g5_helium/scss/helium/styles/_core.scss */
 body p {
@@ -176,6 +176,30 @@ a {
 /* line 5, wp-content/themes/g5_helium/scss/helium/styles/_hyperlinks.scss */
 a:hover {
   color: #c90003;
+}
+@font-face {
+  font-family: "lato";
+  font-style: normal;
+  font-weight: 900;
+  src: url('../../../g5_helium/fonts/lato/lato-black/lato-black-webfont.eot#iefix') format("embedded-opentype"), url('../../../g5_helium/fonts/lato/lato-black/lato-black-webfont.woff2') format("woff2"), url('../../../g5_helium/fonts/lato/lato-black/lato-black-webfont.woff') format("woff"), url('../../../g5_helium/fonts/lato/lato-black/lato-black-webfont.ttf') format("truetype"), url('../../../g5_helium/fonts/lato/lato-black/lato-black-webfont.svg#lato') format("svg");
+}
+@font-face {
+  font-family: "lato";
+  font-style: normal;
+  font-weight: 700;
+  src: url('../../../g5_helium/fonts/lato/lato-bold/lato-bold-webfont.eot#iefix') format("embedded-opentype"), url('../../../g5_helium/fonts/lato/lato-bold/lato-bold-webfont.woff2') format("woff2"), url('../../../g5_helium/fonts/lato/lato-bold/lato-bold-webfont.woff') format("woff"), url('../../../g5_helium/fonts/lato/lato-bold/lato-bold-webfont.ttf') format("truetype"), url('../../../g5_helium/fonts/lato/lato-bold/lato-bold-webfont.svg#lato') format("svg");
+}
+@font-face {
+  font-family: "lato";
+  font-style: normal;
+  font-weight: 400;
+  src: url('../../../g5_helium/fonts/lato/lato-regular/lato-regular-webfont.eot#iefix') format("embedded-opentype"), url('../../../g5_helium/fonts/lato/lato-regular/lato-regular-webfont.woff2') format("woff2"), url('../../../g5_helium/fonts/lato/lato-regular/lato-regular-webfont.woff') format("woff"), url('../../../g5_helium/fonts/lato/lato-regular/lato-regular-webfont.ttf') format("truetype"), url('../../../g5_helium/fonts/lato/lato-regular/lato-regular-webfont.svg#lato') format("svg");
+}
+@font-face {
+  font-family: "lato";
+  font-style: normal;
+  font-weight: 200;
+  src: url('../../../g5_helium/fonts/lato/lato-light/lato-light-webfont.eot#iefix') format("embedded-opentype"), url('../../../g5_helium/fonts/lato/lato-light/lato-light-webfont.woff2') format("woff2"), url('../../../g5_helium/fonts/lato/lato-light/lato-light-webfont.woff') format("woff"), url('../../../g5_helium/fonts/lato/lato-light/lato-light-webfont.ttf') format("truetype"), url('../../../g5_helium/fonts/lato/lato-light/lato-light-webfont.svg#lato') format("svg");
 }
 /* line 5, wp-content/themes/g5_helium/scss/helium/styles/_typography.scss */
 body {
@@ -463,13 +487,13 @@ hr {
 /* line 100, wp-content/themes/g5_helium/scss/helium/styles/_variations.scss */
 /* line 101, wp-content/themes/g5_helium/scss/helium/styles/_variations.scss */
 .title1 .g-title {
-  background: #a8a7a7;
+  background: #f7c118;
   color: #fff;
 }
 /* line 108, wp-content/themes/g5_helium/scss/helium/styles/_variations.scss */
 /* line 109, wp-content/themes/g5_helium/scss/helium/styles/_variations.scss */
 .box1.moduletable, .box1.widget, .box1.g-outer-box, .box1 > .g-content {
-  background: #949292;
+  background: #deaa08;
 }
 /* line 115, wp-content/themes/g5_helium/scss/helium/styles/_variations.scss */
 .box1.moduletable, .box1.widget, .box1 > .g-content {
@@ -481,11 +505,11 @@ hr {
 }
 /* line 123, wp-content/themes/g5_helium/scss/helium/styles/_variations.scss */
 .box1 .button:hover {
-  background: #828181;
+  background: #bc9007;
 }
 /* line 128, wp-content/themes/g5_helium/scss/helium/styles/_variations.scss */
 .box1 a {
-  color: #f4f4f4;
+  color: #fce9ac;
 }
 /* line 131, wp-content/themes/g5_helium/scss/helium/styles/_variations.scss */
 .box1 a:hover {
@@ -494,7 +518,7 @@ hr {
 /* line 138, wp-content/themes/g5_helium/scss/helium/styles/_variations.scss */
 /* line 139, wp-content/themes/g5_helium/scss/helium/styles/_variations.scss */
 .box1.title1 .g-title {
-  background: #828181;
+  background: #bc9007;
 }
 /* line 145, wp-content/themes/g5_helium/scss/helium/styles/_variations.scss */
 /* line 146, wp-content/themes/g5_helium/scss/helium/styles/_variations.scss */
@@ -536,17 +560,17 @@ hr {
 /* line 191, wp-content/themes/g5_helium/scss/helium/styles/_variations.scss */
 /* line 192, wp-content/themes/g5_helium/scss/helium/styles/_variations.scss */
 .title-gradient .g-title {
-  background-color: #a8a7a7;
-  background-image: -webkit-linear-gradient(-360deg, #a8a7a7, #333);
-  background-image: linear-gradient(90deg,#a8a7a7, #333);
+  background-color: #f7c118;
+  background-image: -webkit-linear-gradient(-360deg, #f7c118, #333);
+  background-image: linear-gradient(90deg,#f7c118, #333);
   color: #fff;
 }
 /* line 199, wp-content/themes/g5_helium/scss/helium/styles/_variations.scss */
 /* line 200, wp-content/themes/g5_helium/scss/helium/styles/_variations.scss */
 .box-gradient.moduletable, .box-gradient.widget, .box-gradient.g-outer-box, .box-gradient > .g-content {
-  background-color: #a8a7a7;
-  background-image: -webkit-linear-gradient(-315deg, #a8a7a7, #333);
-  background-image: linear-gradient(45deg,#a8a7a7, #333);
+  background-color: #f7c118;
+  background-image: -webkit-linear-gradient(-315deg, #f7c118, #333);
+  background-image: linear-gradient(45deg,#f7c118, #333);
 }
 /* line 206, wp-content/themes/g5_helium/scss/helium/styles/_variations.scss */
 .box-gradient.moduletable, .box-gradient.widget, .box-gradient > .g-content {
@@ -555,15 +579,15 @@ hr {
 /* line 211, wp-content/themes/g5_helium/scss/helium/styles/_variations.scss */
 .box-gradient .button {
   color: #fff;
-  background: #9b9a9a;
+  background: #edb608;
 }
 /* line 215, wp-content/themes/g5_helium/scss/helium/styles/_variations.scss */
 .box-gradient .button:hover {
-  background: #828181;
+  background: #bc9007;
 }
 /* line 220, wp-content/themes/g5_helium/scss/helium/styles/_variations.scss */
 .box-gradient a {
-  color: #f4f4f4;
+  color: #fce9ac;
 }
 /* line 223, wp-content/themes/g5_helium/scss/helium/styles/_variations.scss */
 .box-gradient a:hover {
@@ -572,25 +596,25 @@ hr {
 /* line 230, wp-content/themes/g5_helium/scss/helium/styles/_variations.scss */
 /* line 231, wp-content/themes/g5_helium/scss/helium/styles/_variations.scss */
 .box-gradient.title-gradient .g-title {
-  background-color: #a8a7a7;
-  background-image: -webkit-linear-gradient(-280deg, #a8a7a7, #333);
-  background-image: linear-gradient(10deg,#a8a7a7, #333);
+  background-color: #f7c118;
+  background-image: -webkit-linear-gradient(-280deg, #f7c118, #333);
+  background-image: linear-gradient(10deg,#f7c118, #333);
 }
 /* line 237, wp-content/themes/g5_helium/scss/helium/styles/_variations.scss */
 /* line 238, wp-content/themes/g5_helium/scss/helium/styles/_variations.scss */
 .title-outline .g-title {
-  border: 1px solid #a8a7a7;
+  border: 1px solid #f7c118;
 }
 /* line 244, wp-content/themes/g5_helium/scss/helium/styles/_variations.scss */
 /* line 245, wp-content/themes/g5_helium/scss/helium/styles/_variations.scss */
 .box-outline.moduletable, .box-outline.widget, .box-outline.g-outer-box, .box-outline > .g-content {
-  border: 1px solid #a8a7a7;
+  border: 1px solid #f7c118;
 }
 /* line 253, wp-content/themes/g5_helium/scss/helium/styles/_variations.scss */
 /* line 254, wp-content/themes/g5_helium/scss/helium/styles/_variations.scss */
 .box-outline.title-outline .g-title {
   border: none;
-  border-bottom: 1px solid #a8a7a7;
+  border-bottom: 1px solid #f7c118;
 }
 /* line 261, wp-content/themes/g5_helium/scss/helium/styles/_variations.scss */
 /* line 262, wp-content/themes/g5_helium/scss/helium/styles/_variations.scss */
@@ -625,13 +649,13 @@ hr {
 /* line 2, wp-content/themes/g5_helium/scss/helium/styles/_buttons.scss */
 .button {
   display: inline-block;
-  font-family: "Montserrat";
+  font-family: "Lato", "Helvetica", "Tahoma", "Geneva", "Arial", "Apple Color Emoji", "Segoe UI", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
   font-weight: 600;
   font-size: 0.8rem;
   line-height: 1.15;
   letter-spacing: 0.1rem;
   text-transform: uppercase;
-  background: #a8a7a7;
+  background: #f7c118;
   color: #fff;
   border: 1px solid transparent;
   border-radius: 2.5rem;
@@ -645,7 +669,7 @@ hr {
 }
 /* line 20, wp-content/themes/g5_helium/scss/helium/styles/_buttons.scss */
 .button:hover, .button:active, .button:focus {
-  background: #8f8d8d;
+  background: #d5a307;
   color: #fff;
   outline: 0;
 }
@@ -656,7 +680,7 @@ hr {
 }
 /* line 30, wp-content/themes/g5_helium/scss/helium/styles/_buttons.scss */
 .button:disabled:hover {
-  background: #a8a7a7;
+  background: #f7c118;
 }
 /* line 36, wp-content/themes/g5_helium/scss/helium/styles/_buttons.scss */
 /* line 39, wp-content/themes/g5_helium/scss/helium/styles/_buttons.scss */
@@ -709,25 +733,25 @@ hr {
 /* line 86, wp-content/themes/g5_helium/scss/helium/styles/_buttons.scss */
 .button.button-outline {
   background: transparent;
-  color: #a8a7a7;
-  border-color: #a8a7a7;
+  color: #f7c118;
+  border-color: #f7c118;
 }
 /* line 91, wp-content/themes/g5_helium/scss/helium/styles/_buttons.scss */
 .button.button-outline:hover, .button.button-outline:active, .button.button-outline:focus {
-  background: #a8a7a7;
+  background: #f7c118;
   border-color: transparent;
   color: #fff;
 }
 /* line 98, wp-content/themes/g5_helium/scss/helium/styles/_buttons.scss */
 .button.button-gradient {
-  background-color: #a8a7a7;
-  background-image: -webkit-linear-gradient(-360deg, #a8a7a7, #333);
-  background-image: linear-gradient(90deg,#a8a7a7, #333);
+  background-color: #f7c118;
+  background-image: -webkit-linear-gradient(-360deg, #f7c118, #333);
+  background-image: linear-gradient(90deg,#f7c118, #333);
   border: none;
 }
 /* line 102, wp-content/themes/g5_helium/scss/helium/styles/_buttons.scss */
 .button.button-gradient:hover, .button.button-gradient:active, .button.button-gradient:focus {
-  background: #a8a7a7;
+  background: #f7c118;
   color: white;
 }
 /* line 108, wp-content/themes/g5_helium/scss/helium/styles/_buttons.scss */
@@ -759,13 +783,13 @@ textarea, select[multiple=multiple] {
 }
 /* line 5, wp-content/themes/g5_helium/scss/helium/styles/_forms.scss */
 textarea:hover, select[multiple=multiple]:hover {
-  border-color: #a8a7a7;
-  box-shadow: 0 0 4px rgba(168, 167, 167, 0.5);
+  border-color: #f7c118;
+  box-shadow: 0 0 4px rgba(247, 193, 24, 0.5);
 }
 /* line 10, wp-content/themes/g5_helium/scss/helium/styles/_forms.scss */
 textarea:focus, select[multiple=multiple]:focus {
-  border-color: #a8a7a7;
-  box-shadow: 0 0 4px rgba(168, 167, 167, 0.5);
+  border-color: #f7c118;
+  box-shadow: 0 0 4px rgba(247, 193, 24, 0.5);
 }
 /* line 16, wp-content/themes/g5_helium/scss/helium/styles/_forms.scss */
 textarea {
@@ -793,19 +817,19 @@ input[type="color"], input[type="date"], input[type="datetime"], input[type="dat
 }
 /* line 37, wp-content/themes/g5_helium/scss/helium/styles/_forms.scss */
 input[type="color"]:hover, input[type="date"]:hover, input[type="datetime"]:hover, input[type="datetime-local"]:hover, input[type="email"]:hover, input[type="month"]:hover, input[type="number"]:hover, input[type="password"]:hover, input[type="search"]:hover, input[type="tel"]:hover, input[type="text"]:hover, input[type="time"]:hover, input[type="url"]:hover, input[type="week"]:hover, input:not([type]):hover, textarea:hover {
-  box-shadow: 0 0 4px rgba(168, 167, 167, 0.5);
+  box-shadow: 0 0 4px rgba(247, 193, 24, 0.5);
 }
 /* line 41, wp-content/themes/g5_helium/scss/helium/styles/_forms.scss */
 input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="email"]:focus, input[type="month"]:focus, input[type="number"]:focus, input[type="password"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="text"]:focus, input[type="time"]:focus, input[type="url"]:focus, input[type="week"]:focus, input:not([type]):focus, textarea:focus {
-  box-shadow: 0 0 4px rgba(168, 167, 167, 0.5);
+  box-shadow: 0 0 4px rgba(247, 193, 24, 0.5);
 }
 /* line 46, wp-content/themes/g5_helium/scss/helium/styles/_forms.scss */
 input[type="color"]:hover, input[type="date"]:hover, input[type="datetime"]:hover, input[type="datetime-local"]:hover, input[type="email"]:hover, input[type="month"]:hover, input[type="number"]:hover, input[type="password"]:hover, input[type="search"]:hover, input[type="tel"]:hover, input[type="text"]:hover, input[type="time"]:hover, input[type="url"]:hover, input[type="week"]:hover, input:not([type]):hover, textarea:hover {
-  border-color: #a8a7a7;
+  border-color: #f7c118;
 }
 /* line 50, wp-content/themes/g5_helium/scss/helium/styles/_forms.scss */
 input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="email"]:focus, input[type="month"]:focus, input[type="number"]:focus, input[type="password"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="text"]:focus, input[type="time"]:focus, input[type="url"]:focus, input[type="week"]:focus, input:not([type]):focus, textarea:focus {
-  border-color: #a8a7a7;
+  border-color: #f7c118;
 }
 /* line 1, wp-content/themes/g5_helium/scss/helium/styles/_dropdownanimations.scss */
 /* line 2, wp-content/themes/g5_helium/scss/helium/styles/_dropdownanimations.scss */
@@ -1334,7 +1358,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 }
 @media only all and (max-width: 47.938rem) {
   .g-home-particles.g-helium-style #g-navigation .g-social a:hover {
-    color: #a8a7a7;
+    color: #f7c118;
   }
 }
 /* line 41, wp-content/themes/g5_helium/scss/helium/styles/_helium-style.scss */
@@ -1555,7 +1579,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 }
 /* line 1, wp-content/themes/g5_helium/scss/helium/sections/_navigation.scss */
 #g-navigation {
-  background: #c90003;
+  background: #840406;
   color: #fff;
   position: relative;
   z-index: 11;
@@ -1598,7 +1622,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 }
 /* line 48, wp-content/themes/g5_helium/scss/helium/sections/_navigation.scss */
 #g-navigation .g-main-nav {
-  font-family: "Montserrat";
+  font-family: "Lato", "Helvetica", "Tahoma", "Geneva", "Arial", "Apple Color Emoji", "Segoe UI", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
   font-weight: 700;
   line-height: 1.5;
 }
@@ -1660,7 +1684,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 }
 /* line 111, wp-content/themes/g5_helium/scss/helium/sections/_navigation.scss */
 #g-navigation .g-main-nav .g-dropdown {
-  background: #d30003;
+  background: #8e0406;
   border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 0.25rem;
 }
@@ -1674,7 +1698,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 }
 /* line 123, wp-content/themes/g5_helium/scss/helium/sections/_navigation.scss */
 #g-navigation .g-main-nav .g-dropdown a:hover {
-  color: #a8a7a7;
+  color: #f7c118;
 }
 /* line 128, wp-content/themes/g5_helium/scss/helium/sections/_navigation.scss */
 #g-navigation .g-main-nav .g-dropdown .g-dropdown-column {
@@ -1706,11 +1730,11 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 /* line 158, wp-content/themes/g5_helium/scss/helium/sections/_navigation.scss */
 /* line 159, wp-content/themes/g5_helium/scss/helium/sections/_navigation.scss */
 #g-navigation .g-main-nav .g-sublevel > li:hover > .g-menu-item-container, #g-navigation .g-main-nav .g-sublevel > li.active > .g-menu-item-container {
-  color: #a8a7a7;
+  color: #f7c118;
 }
 /* line 162, wp-content/themes/g5_helium/scss/helium/sections/_navigation.scss */
 #g-navigation .g-main-nav .g-sublevel > li:hover > .g-menu-item-container > .g-selected, #g-navigation .g-main-nav .g-sublevel > li.active > .g-menu-item-container > .g-selected {
-  color: #a8a7a7;
+  color: #f7c118;
 }
 /* line 168, wp-content/themes/g5_helium/scss/helium/sections/_navigation.scss */
 /* line 169, wp-content/themes/g5_helium/scss/helium/sections/_navigation.scss */
@@ -1992,26 +2016,10 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
   padding: 3rem 0;
   position: relative;
   z-index: 10;
-  background: url('../../../g5_helium/images/testimonials/img01.jpg') no-repeat center top;
-  background-size: cover;
-}
-/* line 13, wp-content/themes/g5_helium/scss/helium/sections/_testimonials.scss */
-#g-testimonials:before {
-  background-color: #a8a7a7;
-  background-image: -webkit-linear-gradient(-310deg, #a8a7a7, #333);
-  background-image: linear-gradient(40deg,#a8a7a7, #333);
-  opacity: 0.9;
-  position: absolute;
-  content: "";
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  z-index: -1;
 }
 /* line 27, wp-content/themes/g5_helium/scss/helium/sections/_testimonials.scss */
 #g-testimonials a {
-  color: #dbdada;
+  color: #fadb7b;
 }
 /* line 30, wp-content/themes/g5_helium/scss/helium/sections/_testimonials.scss */
 #g-testimonials a:hover {
@@ -2151,7 +2159,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 }
 /* line 9, wp-content/themes/g5_helium/scss/helium/sections/_offcanvas.scss */
 #g-offcanvas a:hover {
-  color: #686767;
+  color: #8b6a05;
 }
 /* line 14, wp-content/themes/g5_helium/scss/helium/sections/_offcanvas.scss */
 #g-offcanvas h1, #g-offcanvas h2, #g-offcanvas h3, #g-offcanvas h4, #g-offcanvas h5, #g-offcanvas h6, #g-offcanvas strong {
@@ -2245,25 +2253,25 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 }
 /* line 113, wp-content/themes/g5_helium/scss/helium/sections/_offcanvas.scss */
 #g-offcanvas #g-mobilemenu-container ul > li:not(.g-menu-item-type-particle):not(.g-menu-item-type-module).active {
-  background: #949292;
+  background: #deaa08;
 }
 /* line 117, wp-content/themes/g5_helium/scss/helium/sections/_offcanvas.scss */
 #g-offcanvas #g-mobilemenu-container ul > li:not(.g-menu-item-type-particle):not(.g-menu-item-type-module):hover {
-  background: #9b9a9a;
+  background: #edb608;
 }
 /* line 122, wp-content/themes/g5_helium/scss/helium/sections/_offcanvas.scss */
 /* line 123, wp-content/themes/g5_helium/scss/helium/sections/_offcanvas.scss */
 /* line 124, wp-content/themes/g5_helium/scss/helium/sections/_offcanvas.scss */
 #g-offcanvas #g-mobilemenu-container ul > li.g-menu-item-link-parent > .g-menu-item-container > .g-menu-parent-indicator {
-  border: 1px solid #b7b6b6;
-  background: #9e9d9d;
+  border: 1px solid #f8c936;
+  background: #f2ba08;
   border-radius: 0.25rem;
   margin: -0.3rem 0 -0.2rem 0.5rem;
   padding: 0.2rem;
 }
 /* line 128, wp-content/themes/g5_helium/scss/helium/sections/_offcanvas.scss */
 #g-offcanvas #g-mobilemenu-container ul > li.g-menu-item-link-parent > .g-menu-item-container > .g-menu-parent-indicator:hover {
-  background: #949292;
+  background: #deaa08;
 }
 /* line 140, wp-content/themes/g5_helium/scss/helium/sections/_offcanvas.scss */
 #g-offcanvas #g-mobilemenu-container ul .g-dropdown-column {
@@ -2429,7 +2437,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 }
 /* line 1, wp-content/themes/g5_helium/scss/helium/particles/_logo.scss */
 .g-logo {
-  font-family: "Montserrat";
+  font-family: "Lato", "Helvetica", "Tahoma", "Geneva", "Arial", "Apple Color Emoji", "Segoe UI", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
   font-weight: 900;
   font-size: 1.35rem;
   vertical-align: middle;
@@ -2537,7 +2545,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 /* line 1, wp-content/themes/g5_helium/scss/helium/particles/_contentcubes.scss */
 /* line 3, wp-content/themes/g5_helium/scss/helium/particles/_contentcubes.scss */
 .g-contentcubes .cube-items-wrapper {
-  background: linear-gradient(45deg, #333, #a8a7a7);
+  background: linear-gradient(45deg, #333, #f7c118);
   color: #fff;
 }
 /* line 8, wp-content/themes/g5_helium/scss/helium/particles/_contentcubes.scss */
@@ -2624,7 +2632,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 /* line 80, wp-content/themes/g5_helium/scss/helium/particles/_contentcubes.scss */
 .g-contentcubes .cube-items-wrapper .cube-content-wrapper .item-label {
   display: inline-block;
-  background: #a8a7a7;
+  background: #f7c118;
   padding: 0.35em 0.85em;
   margin-bottom: 0.5rem;
   font-size: 0.8125rem;
@@ -2762,7 +2770,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
   margin-right: 3px;
   padding: 0.938rem 1.876rem;
   border-radius: 0.25rem 0.25rem 0 0;
-  background: rgba(168, 167, 167, 0.15);
+  background: rgba(247, 193, 24, 0.15);
 }
 @media only all and (max-width: 47.938rem) {
   .g-contenttabs .g-contenttabs-tab-wrapper-head {
@@ -2815,7 +2823,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 /* line 106, wp-content/themes/g5_helium/scss/helium/particles/_contenttabs.scss */
 /* line 107, wp-content/themes/g5_helium/scss/helium/particles/_contenttabs.scss */
 .ui-tabs-active .g-contenttabs-tab-wrapper-head {
-  background: #a8a7a7;
+  background: #f7c118;
 }
 /* line 111, wp-content/themes/g5_helium/scss/helium/particles/_contenttabs.scss */
 .ui-tabs-active .g-contenttabs-tab-title {
@@ -3401,10 +3409,10 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 /* line 553, wp-content/themes/g5_helium/scss/helium/particles/_owlcarousel.scss */
 /* line 554, wp-content/themes/g5_helium/scss/helium/particles/_owlcarousel.scss */
 .g-owlcarousel.has-color-overlay .owl-stage > .owl-item:nth-child(even) .g-owlcarousel-item-img:after {
-  background-color: #a8a7a7;
-  background-color: #a8a7a7;
-  background-image: -webkit-linear-gradient(-310deg, #a8a7a7, #333);
-  background-image: linear-gradient(40deg,#a8a7a7, #333);
+  background-color: #f7c118;
+  background-color: #f7c118;
+  background-image: -webkit-linear-gradient(-310deg, #f7c118, #333);
+  background-image: linear-gradient(40deg,#f7c118, #333);
   opacity: 0.9;
 }
 /* line 561, wp-content/themes/g5_helium/scss/helium/particles/_owlcarousel.scss */
@@ -3412,8 +3420,8 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 .g-owlcarousel.has-color-overlay .owl-stage > .owl-item:nth-child(odd) .g-owlcarousel-item-img:after {
   background-color: #333;
   background-color: #333;
-  background-image: -webkit-linear-gradient(-410deg, #333, #a8a7a7);
-  background-image: linear-gradient(140deg,#333, #a8a7a7);
+  background-image: -webkit-linear-gradient(-410deg, #333, #f7c118);
+  background-image: linear-gradient(140deg,#333, #f7c118);
   opacity: 0.9;
 }
 /* line 1, wp-content/themes/g5_helium/scss/helium/particles/_horizontalmenu.scss */
@@ -3421,7 +3429,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
   list-style: none;
   margin: 0;
   padding: 0;
-  font-family: "Montserrat";
+  font-family: "Lato", "Helvetica", "Tahoma", "Geneva", "Arial", "Apple Color Emoji", "Segoe UI", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
   font-weight: 700;
 }
 @media only all and (max-width: 47.938rem) {
@@ -3450,7 +3458,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 }
 /* line 1, wp-content/themes/g5_helium/scss/helium/particles/_totop.scss */
 .g-totop {
-  font-family: "Montserrat";
+  font-family: "Lato", "Helvetica", "Tahoma", "Geneva", "Arial", "Apple Color Emoji", "Segoe UI", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
   font-weight: 700;
   text-align: right;
 }

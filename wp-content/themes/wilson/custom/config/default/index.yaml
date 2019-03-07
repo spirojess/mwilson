@@ -1,5 +1,5 @@
 name: default
-timestamp: 1551303563
+timestamp: 1551990022
 version: 7
 preset:
   image: 'gantry-admin://images/layouts/default.png'
@@ -9,6 +9,7 @@ positions:
   aside: Aside
   sidebar: Sidebar
 sections:
+  header: Header
   navigation: Navigation
   intro: Intro
   features: Features
@@ -17,13 +18,14 @@ sections:
   testimonials: Testimonials
   expanded: Expanded
   abovefoot: Abovefoot
-  header: Header
   aside: Aside
   sidebar: Sidebar
   mainbar: Mainbar
   footer: Footer
   offcanvas: Offcanvas
 particles:
+  custom:
+    custom-4706: 'Custom HTML'
   messages:
     system-messages-7972: 'System Messages'
   logo:

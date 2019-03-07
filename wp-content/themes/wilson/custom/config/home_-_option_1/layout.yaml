@@ -122,7 +122,9 @@ content:
   owlcarousel-9030:
     title: 'Owl Carousel'
     attributes:
-      autoplay: enable
+      nav: enable
+      dots: disable
+      autoplay: disable
       imageOverlay: disable
       items:
         -
@@ -130,9 +132,9 @@ content:
           image: 'gantry-media://2019/02/musicman_bnr1.jpg'
           title: ''
           desc: ''
-          link: /biography
+          link: ''
           linktext: ''
-          buttonclass: button-outline
+          buttonclass: ''
           disable: '0'
           name: 'Meredith Marching'
         -
@@ -140,7 +142,7 @@ content:
           image: 'gantry-media://2019/02/musicman_bnr2.jpg'
           title: ''
           desc: ''
-          link: /musicals
+          link: musicals
           linktext: Musicals
           buttonclass: button-outline
           disable: '0'
@@ -150,9 +152,9 @@ content:
           image: 'gantry-media://2019/02/musicman_bnr3.jpg'
           title: ''
           desc: ''
-          link: ''
-          linktext: ''
-          buttonclass: button-outline
+          link: meredith-willson-biography
+          linktext: Biography
+          buttonclass: 'button-bevel button-outline'
           disable: '0'
           name: Bio1
         -
@@ -160,18 +162,18 @@ content:
           image: 'gantry-media://2019/02/musicman_bnr4.jpg'
           title: ''
           desc: ''
-          link: ''
-          linktext: ''
+          link: the-music-man-square
+          linktext: 'Music Man Square'
           buttonclass: button-outline
           disable: '0'
           name: 'MusicMan Square'
         -
           class: ''
           image: 'gantry-media://2019/02/musicman_bnr5.jpg'
-          title: ''
+          title: Biography
           desc: ''
-          link: ''
-          linktext: ''
+          link: meredith-willson-biography
+          linktext: Biography
           buttonclass: button-outline
           disable: '0'
           name: 'Bio 2'

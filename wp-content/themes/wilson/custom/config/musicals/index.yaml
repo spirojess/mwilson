@@ -1,5 +1,5 @@
 name: musicals
-timestamp: 1551303563
+timestamp: 1551990022
 version: 7
 preset:
   image: 'gantry-admin://images/layouts/default.png'
@@ -34,6 +34,8 @@ particles:
     logo-3317: 'Logo / Image'
   menu:
     menu-4240: Menu
+  custom:
+    custom-6314: 'Custom HTML'
   position:
     position-position-3746: Aside
     position-position-5393: Sidebar
@@ -57,6 +59,7 @@ inherit:
     system-messages-6323: system-messages-7972
     logo-7591: logo-9608
     menu-4240: menu-6409
+    custom-6314: custom-4706
     position-position-3746: position-position-4734
     position-position-5393: position-position-3949
     copyright-8137: copyright-1736

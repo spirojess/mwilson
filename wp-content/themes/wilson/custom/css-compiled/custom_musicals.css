@@ -9,38 +9,87 @@
  */
 
 /* @override 
- http://localhost:8888/mwilson/wp-content/themes/wilson/custom/css-compiled/helium-wordpress_home_-_option_1.css?*
- http://localhost:8888/mwilson/wp-content/themes/wilson/custom/css-compiled/custom_home_-_option_1.css?*
- http://localhost:8888/mwilson/wp-content/themes/wilson/custom/css-compiled/custom.css?* */
+ http://localhost:8888/mwilson/wp-content/themes/wilson/custom/css-compiled/custom_home_-_option_1.css?* */
 /* @group ----------- HEADER -------------- */
-/* @end */
-/* @group -----------  MENU . ---------- */
-/* line 14, wp-content/themes/wilson/custom/scss/custom.scss */
-#logo-9608-particle {
-  margin-top: 8px !important;
+/* line 7, wp-content/themes/wilson/custom/scss/custom.scss */
+div#logo-9221-particle.g-content.g-particle a img {
+  max-height: 280px;
+}
+/* line 11, wp-content/themes/wilson/custom/scss/custom.scss */
+body.outline-default header#g-header {
+  background-image: url('../images/mw_bg1_crown.jpg?5c7ea8c1');
+  background-size: cover;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 /* line 18, wp-content/themes/wilson/custom/scss/custom.scss */
-svg#Layer_1 g g path.cls-1 {
+div#custom-4706-particle.g-content.g-particle {
+  visibility: hidden;
+  color: #840406;
+}
+/* @end */
+/* @group -----------  MENU . ---------- */
+/* line 28, wp-content/themes/wilson/custom/scss/custom.scss */
+svg#Layer_1 path {
   fill: white;
+}
+/* line 32, wp-content/themes/wilson/custom/scss/custom.scss */
+span.g-menu-item-title {
+  text-transform: uppercase;
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: none;
+  font-size: 0.9em;
+}
+@media screen and (max-width: 48rem) {
+  /* line 40, wp-content/themes/wilson/custom/scss/custom.scss */
+  section#g-navigation.center.nopaddingall {
+    padding-top: 12px !important;
+    padding-bottom: 12px !important;
+  }
 }
 /* @end */
 /* @group ----------  OWL CAROUSEL ---------- */
-/* line 28, wp-content/themes/wilson/custom/scss/custom.scss */
+/* line 51, wp-content/themes/wilson/custom/scss/custom.scss */
 .slide {
   height: 80vh;
 }
+/* line 53, wp-content/themes/wilson/custom/scss/custom.scss */
+div#g-owlcarousel-owlcarousel-9030 div.g-owlcarousel-item-content {
+  bottom: 0;
+  position: fixed;
+  width: auto;
+  text-align: center;
+}
+/* line 60, wp-content/themes/wilson/custom/scss/custom.scss */
+div#g-owlcarousel-owlcarousel-9030 a.g-owlcarousel-item-button {
+  color: maroon;
+  padding: 16px;
+  line-height: normal;
+  background-color: rgba(255, 255, 255, 0.64);
+  border-color: maroon;
+}
+/* line 67, wp-content/themes/wilson/custom/scss/custom.scss */
+div#g-owlcarousel-owlcarousel-9030 h1.g-owlcarousel-item-title {
+  display: none;
+  color: black;
+}
+/* line 72, wp-content/themes/wilson/custom/scss/custom.scss */
+div#g-owlcarousel-owlcarousel-9030 button {
+  background-color: rgba(128, 128, 128, 0.1);
+}
 /* @end */
 /* @group ----------- ABOVE FOOT ----------------- */
-/* line 35, wp-content/themes/wilson/custom/scss/custom.scss */
+/* line 81, wp-content/themes/wilson/custom/scss/custom.scss */
 section#g-abovefoot div.g-container div.g-grid {
   max-width: 600px;
 }
-/* line 40, wp-content/themes/wilson/custom/scss/custom.scss */
+/* line 86, wp-content/themes/wilson/custom/scss/custom.scss */
 section#g-abovefoot {
   background-color: #474747;
   padding-top: 33px;
 }
-/* line 45, wp-content/themes/wilson/custom/scss/custom.scss */
+/* line 91, wp-content/themes/wilson/custom/scss/custom.scss */
 #g-abovefoot ul.g-horizontalmenu li {
   display: block;
   margin-right: auto;
@@ -48,9 +97,9 @@ section#g-abovefoot {
   text-decoration: none;
   color: #999;
   padding: 0;
-  line-height: 1.4em;
+  line-height: 1.8em;
 }
-/* line 56, wp-content/themes/wilson/custom/scss/custom.scss */
+/* line 102, wp-content/themes/wilson/custom/scss/custom.scss */
 #g-abovefoot ul.g-horizontalmenu {
   display: block;
   margin-right: auto;
@@ -61,7 +110,7 @@ section#g-abovefoot {
   text-decoration: none;
   color: #999;
 }
-/* line 67, wp-content/themes/wilson/custom/scss/custom.scss */
+/* line 113, wp-content/themes/wilson/custom/scss/custom.scss */
 #g-abovefoot a {
   text-decoration: none;
   color: #999;
@@ -70,27 +119,74 @@ section#g-abovefoot {
   padding-top: 0;
   margin-top: 0;
 }
-/* line 77, wp-content/themes/wilson/custom/scss/custom.scss */
+/* line 123, wp-content/themes/wilson/custom/scss/custom.scss */
 #g-abovefoot ul.g-horizontalmenu li:first-child {
   font-weight: bold;
-  line-height: 2em;
+  line-height: 2.2em;
 }
-/* line 82, wp-content/themes/wilson/custom/scss/custom.scss */
+/* line 128, wp-content/themes/wilson/custom/scss/custom.scss */
 #g-abovefoot .g-grid {
   margin-right: auto;
   margin-left: auto;
 }
+/* line 133, wp-content/themes/wilson/custom/scss/custom.scss */
+#g-abovefoot svg#Layer_1 path {
+  opacity: 0.65;
+}
 /* @end */
 /* @group ------------- FOOTER Group -------------- */
-/* line 91, wp-content/themes/wilson/custom/scss/custom.scss */
+/* line 141, wp-content/themes/wilson/custom/scss/custom.scss */
 footer#g-footer {
   padding-top: 8px;
   padding-bottom: 8px;
 }
-/* line 95, wp-content/themes/wilson/custom/scss/custom.scss */
+/* line 145, wp-content/themes/wilson/custom/scss/custom.scss */
 div#copyright-7309-particle.g-content.g-particle div.g-copyright {
   font-size: 0.6em;
   color: #bbbdc0;
 }
+/* line 150, wp-content/themes/wilson/custom/scss/custom.scss */
+#g-footer svg#Layer_1 path {
+  opacity: 0.5;
+}
 /* @end */
+/* line 156, wp-content/themes/wilson/custom/scss/custom.scss */
+body.home section.entry-header h2.entry-title {
+  font: 3em "Montserrat", Arial, Helvetica, Geneva, sans-serif;
+  font-weight: 800;
+  max-width: 400px;
+}
+/* line 162, wp-content/themes/wilson/custom/scss/custom.scss */
+body.home section.entry-header h2.entry-title span {
+  color: #c90003;
+}
+/*#g-page-surround #g-container-main{
+ background: url(../images/mw_bg1_03.jpg) repeat-x;
+ }*/
+/* line 170, wp-content/themes/wilson/custom/scss/custom.scss */
+main#g-mainbar {
+  padding-top: 0;
+}
+/* line 175, wp-content/themes/wilson/custom/scss/custom.scss */
+section.entry-header h2.entry-title, header.page-header h1 {
+  font: 4em Yellowtail, cursive, times, serif;
+  text-align: center;
+  color: #600503;
+}
+/* line 181, wp-content/themes/wilson/custom/scss/custom.scss */
+body.home section.entry-header h2.entry-title {
+  text-align: left;
+  text-transform: uppercase;
+}
+/* line 187, wp-content/themes/wilson/custom/scss/custom.scss */
+section#g-navigation.center.nopaddingall {
+  box-shadow: 0 4px 4px rgba(34, 22, 22, 0.32);
+  opacity: 1;
+}
+/* line 192, wp-content/themes/wilson/custom/scss/custom.scss */
+.tease.tease-mw_musical.mw_musical section.entry-header h2.entry-title {
+  font: 2em Montserrat;
+  font-weight: bold;
+  text-transform: uppercase;
+}
 /*# sourceMappingURL=custom_musicals.css.map */

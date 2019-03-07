@@ -1,15 +1,27 @@
 /* @override 
-	http://localhost:8888/mwilson/wp-content/themes/wilson/custom/css-compiled/helium-wordpress_home_-_option_1.css?*
 	http://localhost:8888/mwilson/wp-content/themes/wilson/custom/css-compiled/custom_home_-_option_1.css?*
 	http://localhost:8888/mwilson/wp-content/themes/wilson/custom/css-compiled/custom.css?* */
-	
+
+
 	/* @group ----------- HEADER -------------- */
 
 div#logo-9221-particle.g-content.g-particle a img {
 	max-height: 280px;
 }
+	
+body.outline-default	header#g-header {
+	background-image: url(../images/mw_bg1_crown.jpg);
+	background-size: cover;
+	padding-top: 0;
+	padding-bottom: 0;
+}
 
-/* @end */
+div#custom-4706-particle.g-content.g-particle {
+	visibility: hidden;
+	color: #840406;
+}
+	
+	/* @end */
 
 /* @group -----------  MENU . ---------- */
 
@@ -25,6 +37,13 @@ span.g-menu-item-title {
 	text-decoration: none;
 	font-size: .9em;
 }
+@media screen and (max-width: 48rem) {
+section#g-navigation.center.nopaddingall {
+	padding-top: 12px!important;
+	padding-bottom: 12px!important;
+}	
+}
+
 
 /* @end */
 
@@ -32,6 +51,29 @@ span.g-menu-item-title {
 	
 	.slide {height:80vh;}
 	
+div#g-owlcarousel-owlcarousel-9030 div.g-owlcarousel-item-content {
+	bottom: 0;
+	position: fixed;
+	width: auto;
+	text-align: center;
+}
+
+div#g-owlcarousel-owlcarousel-9030 a.g-owlcarousel-item-button {
+	color: maroon;
+	padding: 16px;
+	line-height: normal;
+	background-color: rgba(255, 255, 255, 0.64);
+	border-color: maroon;
+}
+div#g-owlcarousel-owlcarousel-9030 h1.g-owlcarousel-item-title {
+	display: none;
+	color: black;
+}	
+
+div#g-owlcarousel-owlcarousel-9030 button {
+	background-color: rgba(128, 128, 128, 0.1);
+}
+
 	/* @end */
 	
 	/* @group ----------- ABOVE FOOT ----------------- */
@@ -120,4 +162,52 @@ max-width: 400px;
 
 body.home section.entry-header h2.entry-title span{
 	color: #c90003;
+}
+
+/*#g-page-surround #g-container-main{
+	background: url(../images/mw_bg1_03.jpg) repeat-x;
+}*/
+
+main#g-mainbar {
+	padding-top: 0;
+}
+
+
+section.entry-header h2.entry-title, header.page-header h1 {
+	font: 4em Yellowtail, cursive, times, serif;
+	text-align: center;
+	color: #600503;
+}
+
+body.home section.entry-header h2.entry-title {
+	text-align: left;
+	text-transform: uppercase;
+}
+
+
+section#g-navigation.center.nopaddingall {
+	box-shadow: 0 4px 4px rgba(34, 22, 22, 0.32);
+	opacity: 1;
+}
+
+.tease.tease-mw_musical.mw_musical section.entry-header h2.entry-title {
+font: 2em Montserrat;
+font-weight: bold;
+text-transform: uppercase;
+}
+ 
+ 
+article#post-356 blockquote {
+	border-left-style: none;
+}
+
+div.wp-block-image.darkback figure {
+	background-color: black;
+	padding: 6px;
+}
+
+a.wp-block-button__link {
+	background-color: #f7c118;
+	font-size: medium;
+	line-height: 1.1em;
 }

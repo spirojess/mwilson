@@ -314,7 +314,7 @@ legend small {
 }
 /* line 63, wp-content/themes/g5_helium/scss/helium-wordpress/_comments.scss */
 #comments ol.commentlist li.comment .comment-author .author-meta .author-name a:hover {
-  color: #a8a7a7;
+  color: #f7c118;
 }
 /* line 69, wp-content/themes/g5_helium/scss/helium-wordpress/_comments.scss */
 /* line 70, wp-content/themes/g5_helium/scss/helium-wordpress/_comments.scss */
@@ -323,7 +323,7 @@ legend small {
 }
 /* line 72, wp-content/themes/g5_helium/scss/helium-wordpress/_comments.scss */
 #comments ol.commentlist li.comment .comment-author .author-meta time a:hover, #comments ol.commentlist li.comment .comment-author .author-meta .edit-link a:hover {
-  color: #a8a7a7;
+  color: #f7c118;
 }
 @media only all and (max-width: 47.938rem) {
   #comments ol.commentlist li.comment .comment-author .author-meta time, #comments ol.commentlist li.comment .comment-author .author-meta .edit-link {
@@ -336,7 +336,7 @@ legend small {
 /* line 87, wp-content/themes/g5_helium/scss/helium-wordpress/_comments.scss */
 /* line 88, wp-content/themes/g5_helium/scss/helium-wordpress/_comments.scss */
 #comments ol.commentlist li.comment.bypostauthor > .comment-body > .comment-author .author-name a {
-  color: #a8a7a7;
+  color: #f7c118;
 }
 /* line 91, wp-content/themes/g5_helium/scss/helium-wordpress/_comments.scss */
 #comments ol.commentlist li.comment.bypostauthor > .comment-body > .comment-author .author-name a:hover {
@@ -415,9 +415,9 @@ legend small {
 /* line 32, wp-content/themes/g5_helium/scss/helium-wordpress/_widgets.scss */
 .widget.widget_tag_cloud a {
   display: inline-block;
-  font-family: "Montserrat";
+  font-family: "Lato", "Helvetica", "Tahoma", "Geneva", "Arial", "Apple Color Emoji", "Segoe UI", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
   border-radius: 0.25rem;
-  background: #a8a7a7;
+  background: #f7c118;
   color: #fff;
   padding: 5px 8px;
   margin: 0 4px 8px 0;
@@ -431,7 +431,7 @@ legend small {
 }
 /* line 48, wp-content/themes/g5_helium/scss/helium-wordpress/_widgets.scss */
 .widget.widget_tag_cloud a:hover {
-  background: #8f8d8d;
+  background: #d5a307;
   color: #fff;
 }
 /* line 56, wp-content/themes/g5_helium/scss/helium-wordpress/_widgets.scss */

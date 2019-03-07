@@ -3,16 +3,16 @@ base:
   background: '#ffffff'
   text-color: '#333333'
 accent:
-  color-1: '#a8a7a7'
+  color-1: '#f7c118'
   color-2: '#333333'
 font:
   family-default: family=Montserrat
-  family-title: 'family=Montserrat:100,800'
+  family-title: ''
 link:
   regular: '#850506'
   hover: '#c90003'
 navigation:
-  background: '#c90003'
+  background: '#840406'
   text-color: '#ffffff'
 header:
   background: '#850506'
@@ -33,7 +33,7 @@ above:
   text-color: '#333333'
 testimonials:
   background: '#a8a7a7'
-  background-image: 'gantry-media://testimonials/img01.jpg'
+  background-image: ''
   background-overlay: enabled
   text-color: '#eceeef'
 expanded:
