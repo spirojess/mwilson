@@ -1,4 +1,4 @@
-/* @override 
+/* @override
 	http://localhost:8888/mwilson/wp-content/themes/wilson/custom/css-compiled/custom_home_-_option_1.css?*
 	http://localhost:8888/mwilson/wp-content/themes/wilson/custom/css-compiled/custom.css?* */
 
@@ -8,7 +8,7 @@
 div#logo-9221-particle.g-content.g-particle a img {
 	max-height: 280px;
 }
-	
+
 body.outline-default	header#g-header {
 	background-image: url(../images/mw_bg1_crown.jpg);
 	background-size: cover;
@@ -20,7 +20,7 @@ div#custom-4706-particle.g-content.g-particle {
 	visibility: hidden;
 	color: #840406;
 }
-	
+
 	/* @end */
 
 /* @group -----------  MENU . ---------- */
@@ -41,16 +41,16 @@ span.g-menu-item-title {
 section#g-navigation.center.nopaddingall {
 	padding-top: 12px!important;
 	padding-bottom: 12px!important;
-}	
+}
 }
 
 
 /* @end */
 
 /* @group ----------  OWL CAROUSEL ---------- */
-	
+
 	.slide {height:80vh;}
-	
+
 div#g-owlcarousel-owlcarousel-9030 div.g-owlcarousel-item-content {
 	bottom: 0;
 	position: fixed;
@@ -68,14 +68,14 @@ div#g-owlcarousel-owlcarousel-9030 a.g-owlcarousel-item-button {
 div#g-owlcarousel-owlcarousel-9030 h1.g-owlcarousel-item-title {
 	display: none;
 	color: black;
-}	
+}
 
 div#g-owlcarousel-owlcarousel-9030 button {
 	background-color: rgba(128, 128, 128, 0.1);
 }
 
 	/* @end */
-	
+
 	/* @group ----------- ABOVE FOOT ----------------- */
 
 
@@ -195,13 +195,13 @@ font: 2em Montserrat;
 font-weight: bold;
 text-transform: uppercase;
 }
- 
- 
+
+
 article#post-356 blockquote {
 	border-left-style: none;
 }
 
-div.wp-block-image.darkback figure {
+figure.wp-block-image.darkback img {
 	background-color: black;
 	padding: 6px;
 }
@@ -210,4 +210,87 @@ a.wp-block-button__link {
 	background-color: #f7c118;
 	font-size: medium;
 	line-height: 1.1em;
+}
+
+
+
+/*
+section.entry-content p {
+
+width: 80%;
+margin-right: auto;
+	margin-left: auto;
+margin-top: 84px;
+}
+
+section.entry-content p + p {
+	margin-top: 0px;
+}
+
+section.entry-content h2 + p {
+	margin-top: 0px;
+}
+
+section.entry-content p.full-width {
+	width: 100%;
+}*/
+
+
+
+section.entry-content {
+	p, h2
+	{
+		width: 80%;
+		margin-right: auto;
+		margin-left: auto;
+		padding-top: 44px;
+		}
+		&
+	p + p, h2 + p {
+	padding-top: 0px;
+		}
+		&
+ 	p:last-of-type-of-type {
+	padding-bottom: 44px;
+		}
+		&
+	p.full-width {
+	width: 100%;
+		}
+		&
+		h2:empty
+		{display:none;}
+		&
+		.space_below{
+			margin-bottom:44px
+		}
+		&
+		.ugb-container__content-wrapper h2{
+			padding-top: 0px;
+		}
+}
+
+blockquote p {padding-top: 0px;}
+
+section.entry-content figure.alignleft {margin-left: 88px}
+
+section.entry-content figure.alignright {margin-right: 88px}
+
+section.entry-content .wp-block-media-text{
+	padding-right: 10%;
+	padding-left: 10%;
+}
+section.entry-content .wp-block-media-text.fullwidth {
+	padding-right: 0%;
+	padding-left: 0%;
+}
+div.wp-block-columns{
+	padding-right: 10%;
+	padding-left: 10%;
+}
+
+
+main#g-mainbar,  .wp-block-ugb-container.flushed {
+	margin-bottom: 0px;
+	padding-bottom: 0px;
 }

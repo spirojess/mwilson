@@ -8,7 +8,7 @@
    http://docs.gantry.org/gantry5/tutorials/adding-a-custom-style-sheet
  */
 
-/* @override 
+/* @override
  http://localhost:8888/mwilson/wp-content/themes/wilson/custom/css-compiled/custom_home_-_option_1.css?*
  http://localhost:8888/mwilson/wp-content/themes/wilson/custom/css-compiled/custom.css?* */
 /* @group ----------- HEADER -------------- */
@@ -195,7 +195,7 @@ article#post-356 blockquote {
   border-left-style: none;
 }
 /* line 204, wp-content/themes/wilson/custom/scss/custom.scss */
-div.wp-block-image.darkback figure {
+figure.wp-block-image.darkback img {
   background-color: black;
   padding: 6px;
 }
@@ -204,5 +204,85 @@ a.wp-block-button__link {
   background-color: #f7c118;
   font-size: medium;
   line-height: 1.1em;
+}
+/*
+ section.entry-content p {
+ width: 80%;
+ margin-right: auto;
+ margin-left: auto;
+ margin-top: 84px;
+ }
+ section.entry-content p + p {
+ margin-top: 0px;
+ }
+ section.entry-content h2 + p {
+ margin-top: 0px;
+ }
+ section.entry-content p.full-width {
+ width: 100%;
+ }*/
+/* line 240, wp-content/themes/wilson/custom/scss/custom.scss */
+/* line 241, wp-content/themes/wilson/custom/scss/custom.scss */
+section.entry-content p, section.entry-content h2 {
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 44px;
+}
+/* line 248, wp-content/themes/wilson/custom/scss/custom.scss */
+section.entry-content p + p, section.entry-content h2 + p {
+  padding-top: 0px;
+}
+/* line 252, wp-content/themes/wilson/custom/scss/custom.scss */
+section.entry-content p:last-of-type-of-type {
+  padding-bottom: 44px;
+}
+/* line 256, wp-content/themes/wilson/custom/scss/custom.scss */
+section.entry-content p.full-width {
+  width: 100%;
+}
+/* line 260, wp-content/themes/wilson/custom/scss/custom.scss */
+section.entry-content h2:empty {
+  display: none;
+}
+/* line 263, wp-content/themes/wilson/custom/scss/custom.scss */
+section.entry-content .space_below {
+  margin-bottom: 44px;
+}
+/* line 267, wp-content/themes/wilson/custom/scss/custom.scss */
+section.entry-content .ugb-container__content-wrapper h2 {
+  padding-top: 0px;
+}
+/* line 273, wp-content/themes/wilson/custom/scss/custom.scss */
+blockquote p {
+  padding-top: 0px;
+}
+/* line 275, wp-content/themes/wilson/custom/scss/custom.scss */
+section.entry-content figure.alignleft {
+  margin-left: 88px;
+}
+/* line 277, wp-content/themes/wilson/custom/scss/custom.scss */
+section.entry-content figure.alignright {
+  margin-right: 88px;
+}
+/* line 279, wp-content/themes/wilson/custom/scss/custom.scss */
+section.entry-content .wp-block-media-text {
+  padding-right: 10%;
+  padding-left: 10%;
+}
+/* line 283, wp-content/themes/wilson/custom/scss/custom.scss */
+section.entry-content .wp-block-media-text.fullwidth {
+  padding-right: 0%;
+  padding-left: 0%;
+}
+/* line 287, wp-content/themes/wilson/custom/scss/custom.scss */
+div.wp-block-columns {
+  padding-right: 10%;
+  padding-left: 10%;
+}
+/* line 293, wp-content/themes/wilson/custom/scss/custom.scss */
+main#g-mainbar, .wp-block-ugb-container.flushed {
+  margin-bottom: 0px;
+  padding-bottom: 0px;
 }
 /*# sourceMappingURL=custom_home_-_option_1.css.map */

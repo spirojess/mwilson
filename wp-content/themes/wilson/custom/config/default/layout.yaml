@@ -104,7 +104,9 @@ structure:
       fixed: '1'
   container-main:
     attributes:
-      boxed: ''
+      boxed: '2'
+      class: ''
+      extra: {  }
   abovefoot:
     type: section
     attributes:
